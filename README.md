@@ -95,13 +95,18 @@ NOTE: This change is applied to PayFabric version 2.0 as well.
 **ADDED.** Support PayLink Service - Offer PayLink service to new and existing PayFabric [v3] customers.
 
 **Production:**
+
 API URL: https://www.payfabric.com/paylink/api 
+
 Hosted Page URL: https://www.payfabric.com/paylink/web 
+
 Help: https://www.payfabric.com/paylink/help
 
 **Sandbox:**
 API URL: https://sandbox.payfabric.com/paylink/api 
+
 Hosted Page URL: https://sandbox.payfabric.com/paylink/web 
+
 Help: https://sandbox.payfabric.com/paylink/help
 
 **ADDED.** Support PayLink integration with SalesPad API - Offer PayLink integration to back office SalesPad Desktop for all successful payments from PayLink. 
