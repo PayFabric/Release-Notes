@@ -121,14 +121,21 @@ Help: https://sandbox.payfabric.com/paylink/help
 * ProcessingMethod=2: Both Web Entry and EMV
 
 **UPDATED.** Changes to PayLink API	Status
+
 0: Draft
+
 1: Pending
+
 2: Cancelled
+
 3: Paid
 
 IntegrationStatus
+
 0: Pending
+
 1: Failed
+
 2: Successful
 
 **ADDED.** Billing and shipping address submission via Create Transaction API - Enable application to pass in billing and shipping information during transaction creation without card information.
