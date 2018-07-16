@@ -93,6 +93,7 @@ NOTE: This change is applied to PayFabric version 2.0 as well.
 
 # Change Log – 01/08/2018 Release
 **ADDED.** Support PayLink Service - Offer PayLink service to new and existing PayFabric [v3] customers.
+
 **Production:**
 API URL: https://www.payfabric.com/paylink/api 
 Hosted Page URL: https://www.payfabric.com/paylink/web 
