@@ -130,8 +130,7 @@ Help: https://sandbox.payfabric.com/paylink/help
 
 3: Paid
 
-IntegrationStatus
-
+**IntegrationStatus**
 0: Pending
 
 1: Failed
