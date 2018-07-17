@@ -53,7 +53,7 @@ Available Data to Query On:
 
 **UPDATED.** Updated First Data's Payeezy connector/gateway mapping to map PF's Invoice Number field to Payeezy's TrxRefIndex to enhance merchant's transaction report capability. 
 
-**FIXED.** Updated USAePaySOAP connector/gateway to map PF's Invoice Number field to USAePay's OrderID field to provide better merchant's transaction report capability. 
+**UPDATED.** Updated USAePaySOAP connector/gateway to map PF's Invoice Number field to USAePay's OrderID field to provide better merchant's transaction report capability. 
 
 # Change Log – Hotfix 06/29/2018 Release
 USAePay disabled the TLS 1.0 and 1.1 protocols from their Production environment as of June 29, 2018 at 1pm PDT.
