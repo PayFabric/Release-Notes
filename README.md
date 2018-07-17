@@ -58,8 +58,7 @@ Available Data to Query On:
 # Change Log – Hotfix 06/29/2018 Release
 USAePay disabled the TLS 1.0 and 1.1 protocols from their Production environment as of June 29, 2018 at 1pm PDT.
 
-Additional configuration change must be made to enable USAePay gateway in order to communicate via TLS 1.2 only. 
-PayFabric added a new & updated USAePay Connector onto PayFabric’s Sandbox & Production for both V2 & V3 called ‘USAePaySOAP’. Please make a switch to this USAePaySOAP connector from the PayFabric Portal > Gateway Account Profile(s) for USAePay. 
+Additional configuration change must be made to enable USAePay gateway to communicate via TLS 1.2 only from PayFabric. PayFabric added a new & updated USAePay Connector onto PayFabric’s Sandbox & Production for both V2 & V3 called ‘USAePaySOAP’. Please make a switch to this USAePaySOAP connector from the PayFabric Portal > Gateway Account Profile(s) for USAePay. 
 
 You can copy and reuse the existing production USAePay’s Source Key information. Here is the additional connection information you will need to add into your gateway profile:
 
