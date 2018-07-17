@@ -51,6 +51,33 @@ Available Data to Query On:
 
 **FIXED.** Unable to edit Account Number for credit card on PF hosted pages.	Fixed the issue to allow user to edit and change the digit(s) of the credit card number correctly. 
 
+**UPDATED.** Updated First Data's Payeezy connector/gateway mapping to map PF's Invoice Number field to Payeezy's TrxRefIndex to enhance merchant's transaction report capability. 
+
+**FIXED.** Updated USAePaySOAP connector/gateway to map PF's Invoice Number field to USAePay's OrderID field to provide better merchant's transaction report capability. 
+
+# Change Log – Hotfix 06/29/2018 Release
+USAePay disabled the TLS 1.0 and 1.1 protocols from their Production environment as of June 29, 2018 at 1pm PDT.
+
+Additional configuration change must be made to enable USAePay gateway in order to communicate via TLS 1.2 only. 
+PayFabric added a new & updated USAePay Connector onto PayFabric’s Sandbox & Production for both V2 & V3 called ‘USAePaySOAP’. Please make a switch to this USAePaySOAP connector from the PayFabric Portal > Gateway Account Profile(s) for USAePay. 
+
+You can copy and reuse the existing production USAePay’s Source Key information. Here is the additional connection information you will need to add into your gateway profile:
+
+Sandbox URL: https://sandbox.usaepay.com/soap/gate  
+
+Production URL: https://secure.usaepay.com/soap/gate 
+
+Port: 443
+
+Server.APIKey: 245VMXN8
+
+SourceKey: <Your Existing API Source Key from USAePay portal>
+  
+Password: <Your Source Key's Password, if available, otherwise leave this blank>
+
+InternalCardAuth: <blank>
+
+
 # Change Log – Hotfix 06/06/2018 Release
 **ADDED.** Add Enable Security Token configurable setting on PayFabric portal to enable restriction on usage against PayFabric APIs. The PayFabric hotfix release includes a security enhancement to PayFabric to allow 3rd party application(s) integrating to PayFabric to set the restriction on the use of security token against the PayFabric APIs. 
 PayFabric will provide the ability to restrict the security token to be used in hosted page ONLY instead of not both API & Hosted page. The changes are as followed:
