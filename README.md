@@ -70,11 +70,11 @@ Port: 443
 
 Server.APIKey: 245VMXN8
 
-SourceKey: <Your Existing API Source Key from USAePay portal>
+SourceKey: (Your Existing API Source Key from USAePay portal)
   
-Password: <Your Source Key's Password, if available, otherwise leave this blank>
+Password: (Your Source Key's Password, if available, otherwise leave this blank)
 
-InternalCardAuth: <blank>
+InternalCardAuth: (blank)
 
 
 # Change Log – Hotfix 06/06/2018 Release
