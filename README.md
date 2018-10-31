@@ -1,3 +1,71 @@
+# Change Log – 10/30/2018 Release
+
+**ADDED.** New Email Receipt template - Provide an enhanced version for payment confirmation receipt for all payment processed transaction. 
+
+**UPDATED.** Rename ‘System Default’ device name to ‘Virtual Terminal’ - To make it more descriptive for portal user, the legacy ‘System Default’ device is renamed to ‘Virtual Terminal’ to represent the virtual terminal device where merchant can process transaction directly on PayFabric. 
+
+**ADDED.** Portal Menu Settings Changes - Enhance the user interface and user experience on PayFabric portal around the following areas:
+-	Settings > Add additional sub-menu under Settings page to include all the configuration settings pages to promote less scrolling for portal admin user. 
+-	DEV Central > re-design DEV Central page to break down into different tabs of configuration settings for PayFabric. 
+
+**ADDED.** Add Virtual Terminal Design Mode	
+-	Legacy Design: maintain the existing user interface and experience for virtual terminal where user can mimic the hosted API calls for PayFabric and also review the custom’s device theme directly on PayFabric portal. 
+-	Modern Design: introduce a new user friendly design for Virtual Terminal to allow merchant to process transactions against PayFabric web portal via web entry and/or terminal entry. 
+
+**ADDED.** Discretionary Data - With the new provided ‘Modern Design’ mode for Virtual Terminal, merchant will have the ability to create their own custom field to associate additional data for each transaction with PayFabric. 
+Note: Discretionary data will only reside with PayFabric and will not be pass on to payment gateway or payment processor. 
+
+**ADDED.** Default Gateway Profile - With the new provided ‘Modern Design’, PayFabric provides merchant the ability to specify default gateway profile based on currency types so their internal user does not need to select a gateway profile at the time of processing a transaction. 
+Note: this functionality is supported through PayFabric API calls for all PayFabric apps/devices. 
+
+**UPDATED.** Re-design user roles and user permission configuration settings page - Enhance the user experience for user roles and user role’s permission page to promote less scrolling and cleaner look and feel for web portal user. 
+
+**ADDED.** Add additional validation around the usage of security token on PayFabric. -	Embed IP Address validation around the usage of PayFabric security token against the PayFabric’s API calls. PayFabric added a new setting under Transact Settings called ‘IP Address Validation for Security Token’. By default, this setting is enabled. 
+- If enabled, PayFabric will validate the security token’s IP address. If the IP address associated with the security token at the time of token creation does not match the security token at the time of token consumption, PayFabric will return the ‘failed authentication’ error during API calls. 
+- If disabled, PayFabric will not validate the security’s token IP address during API calls.
+
+**ADDED.** Add Payment Document’s Length and Prefix configuration for PayLink’s GP integration - To provide more flexibility for merchant to easily identify the payment document created on PayLink portal from the payment document created directly inside GP or elsewhere, merchant is now able to associate with the PayLink document by specifying the document prefix and also the length of the PayLink’s payment document. 
+
+**UPDATED.** Changing the Email on PayFabric will also update the username associated to the PayFabric account. - To make it easier for Pay Fabric’s account owner to transfer the ownership to a different user, PayFabric now offers the ability to update the account owner’s username directly on PayFabric’s portal via Change Email option. 
+
+**ADDED.** Modifying the Customer’s ID against a specific wallet record. - User will now be able to edit/modify the Customer ID associated with a wallet record directly on PayFabric portal. 
+NOTE: If the Customer ID is associated to multiple wallet records, each wallet record needs to be updated individually to reflect the new Customer ID. 
+Ability to dictate ‘From’ email address	PayFabric offers the ability for merchant to use their own domain email address for the following external email communication to their customers instead of using the existing default ‘support@payfabric.com’ to make it easier for their customers to recognize the original sender and avoid any confusion. 
+-	PayFabric’s Payment Confirmation Receipt
+-	PayLink’s Email Notifications
+-	PayLink’s Email Confirmation Receipt
+
+**UPDATED.** Support multiple email addresses from transaction receipt. - PayFabric offers the ability for merchant to send email receipts to multiple recipients by separating the email addresses by semicolon or comma. 
+
+**ADDED.** Ability to resend an existing PayFabric transaction receipt to end customer. - PayFabric offers the ability for merchant to resend transaction email receipt to their customers.
+
+**ADDED.** Ability to process partial referenced credit. - PayFabric offers the ability for merchant to process partial referenced credit/refund transaction for their customers. 
+
+**ADDED.** Ability to specify a default transaction type. - PayFabric offers the ability for merchant to specify the default transaction type on PayFabric’s Virtual Terminal.
+
+**UPDATED.** PayLink Document API Updates. - Update Document API: 3rd party integrations to PayLink API should be able to update/patch PayLink' s integration status to the following:
+- From 'Integration Pending' to Integration Successful'
+- From 'Integration Pending' to 'Integration Failed'
+
+**UPDATED.** Removed Billing Address Validation for Hosted Pages, API and Virtual Terminal.	- PayFabric had removed the partial billing address validation to enable merchant to support international billing addresses.
+**FIXED.** Fixed the credit card entry issues - Address the credit card entry user experience issues on PayFabric’s hosted wallet page:
+-	Chrome’s autofill for credit card cannot detect card number/types.
+-	Incorrect cursor placement during wallet entry.
+-	Hold key down allows user to input more than the allowed number of digits per card type. 
+
+**FIXED.** Fixed CreatedOn date field for WalletLink API. -	Fixed the issue where CreatedOn date field does not have correct value when call ODATA query for WalletLink API. 
+
+**FIXED.** Added ModifiedOn date field for WalletLink API. - Fixed the issue where the ModifiedOn date field was not included as part of the WalletLink API’s response. 
+
+**FIXED.** Fixed CreatedOn date field for PayLink API. -	Fixed the issue where CreatedOn date field does not have correct value when call ODATA query for PayLink API. 
+
+**ADDED.** Add a redirection to Process Message List page on Manage Transaction report - After processing a referenced transaction, user will be redirect to the Process Message List page to view the transaction status. 
+
+**ADDED.** Enhance Daily Activity Report. -	Add ability to view ‘Receipt’ into Daily Activity Report. New columns in report grid: Actions
+
+**ADDED.** Added Integration Status to exported PayLink document report. - Add a new column for Integration Status into exported PayLink document (excel, CSV) report. 
+
+
 # Change Log – 07/15/2018 Release
 
 **FIXED.** Allow zero [0] quantity submission from PayLink API - PayLink API will be able to support zero [0] quantity line items to cater for sales document with backordered quantity in accounting system. 
