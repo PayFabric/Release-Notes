@@ -59,7 +59,7 @@ Ability to dictate ‘From’ email address	PayFabric offers the ability for mer
 
 **FIXED.** Fixed CreatedOn date field for PayLink API. -	Fixed the issue where CreatedOn date field does not have correct value when call ODATA query for PayLink API. 
 
-**ADDED.** Add a redirection to Process Message List page on Manage Transaction report - After processing a referenced transaction, user will be redirect to the Process Message List page to view the transaction status. 
+**ADDED.** Add a redirection to Process Message List page as a popup box on Manage Transaction report - After processing a referenced transaction, user will be redirect to the Process Message List page to view the transaction status. 
 
 **ADDED.** Enhance Daily Activity Report. -	Add ability to view ‘Receipt’ into Daily Activity Report. New columns in report grid: Actions
 
