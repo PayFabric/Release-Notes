@@ -20,7 +20,7 @@ Note: This functionality is supported through PayFabric API calls for all PayFab
 
 **UPDATED.** Re-design user roles and user permission configuration settings page - Enhance the user experience for user roles and user role’s permission page to promote less scrolling and cleaner look and feel for web portal user. 
 
-**ADDED.** Add additional validation around the usage of security token on PayFabric. -	Embed IP Address validation around the usage of PayFabric security token against the PayFabric’s API calls. PayFabric added a new setting under Transact Settings called ‘IP Address Validation for Security Token’. By default, this setting is enabled. 
+**ADDED.** Add additional validation around the usage of security token on PayFabric. -	Embed IP Address validation around the usage of PayFabric security token against the PayFabric’s API calls. PayFabric added a new setting under Transact Settings called ‘IP Address Validation for Security Token’. By default, this setting is **enabled**. 
 - If **enabled**, PayFabric will validate the security token’s IP address. If the IP address associated with the security token at the time of token creation does not match the security token at the time of token consumption, PayFabric will return the ‘failed authentication’ error during API calls. 
 - If **disabled**, PayFabric will not validate the security’s token IP address during API calls.
 
