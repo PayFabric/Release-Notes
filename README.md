@@ -5,24 +5,24 @@
 **UPDATED.** Rename ‘System Default’ device name to ‘Virtual Terminal’ - To make it more descriptive for portal user, the legacy ‘System Default’ device is renamed to ‘Virtual Terminal’ to represent the virtual terminal device where merchant can process transaction directly on PayFabric. 
 
 **ADDED.** Portal Menu Settings Changes - Enhance the user interface and user experience on PayFabric portal around the following areas:
--	Settings > Add additional sub-menu under Settings page to include all the configuration settings pages to promote less scrolling for portal admin user. 
--	DEV Central > re-design DEV Central page to break down into different tabs of configuration settings for PayFabric. 
+-	**Settings** > Add additional sub-menu under Settings page to include all the configuration settings pages to promote less scrolling for portal admin user. 
+-	**DEV Central** > Re-design DEV Central page to break down into different tabs of configuration settings for PayFabric. 
 
 **ADDED.** Add Virtual Terminal Design Mode	
--	Legacy Design: maintain the existing user interface and experience for virtual terminal where user can mimic the hosted API calls for PayFabric and also review the custom’s device theme directly on PayFabric portal. 
--	Modern Design: introduce a new user friendly design for Virtual Terminal to allow merchant to process transactions against PayFabric web portal via web entry and/or terminal entry. 
+-	**Legacy Design**: Maintain the existing user interface and experience for virtual terminal where user can mimic the hosted API calls for PayFabric and also review the custom’s device theme directly on PayFabric portal. 
+-	**Modern Design**: Introduce a new user friendly design for Virtual Terminal to allow merchant to process transactions against PayFabric web portal via web entry and/or terminal entry. 
 
 **ADDED.** Discretionary Data - With the new provided ‘Modern Design’ mode for Virtual Terminal, merchant will have the ability to create their own custom field to associate additional data for each transaction with PayFabric. 
 Note: Discretionary data will only reside with PayFabric and will not be pass on to payment gateway or payment processor. 
 
 **ADDED.** Default Gateway Profile - With the new provided ‘Modern Design’, PayFabric provides merchant the ability to specify default gateway profile based on currency types so their internal user does not need to select a gateway profile at the time of processing a transaction. 
-Note: this functionality is supported through PayFabric API calls for all PayFabric apps/devices. 
+Note: This functionality is supported through PayFabric API calls for all PayFabric apps/devices. 
 
 **UPDATED.** Re-design user roles and user permission configuration settings page - Enhance the user experience for user roles and user role’s permission page to promote less scrolling and cleaner look and feel for web portal user. 
 
 **ADDED.** Add additional validation around the usage of security token on PayFabric. -	Embed IP Address validation around the usage of PayFabric security token against the PayFabric’s API calls. PayFabric added a new setting under Transact Settings called ‘IP Address Validation for Security Token’. By default, this setting is enabled. 
-- If enabled, PayFabric will validate the security token’s IP address. If the IP address associated with the security token at the time of token creation does not match the security token at the time of token consumption, PayFabric will return the ‘failed authentication’ error during API calls. 
-- If disabled, PayFabric will not validate the security’s token IP address during API calls.
+- If **enabled**, PayFabric will validate the security token’s IP address. If the IP address associated with the security token at the time of token creation does not match the security token at the time of token consumption, PayFabric will return the ‘failed authentication’ error during API calls. 
+- If **disabled**, PayFabric will not validate the security’s token IP address during API calls.
 
 **ADDED.** Add Payment Document’s Length and Prefix configuration for PayLink’s GP integration - To provide more flexibility for merchant to easily identify the payment document created on PayLink portal from the payment document created directly inside GP or elsewhere, merchant is now able to associate with the PayLink document by specifying the document prefix and also the length of the PayLink’s payment document. 
 
