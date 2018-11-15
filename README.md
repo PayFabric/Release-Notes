@@ -30,7 +30,8 @@ Note: This functionality is supported through PayFabric API calls for all PayFab
 
 **ADDED.** Modifying the Customer’s ID against a specific wallet record. - User will now be able to edit/modify the Customer ID associated with a wallet record directly on PayFabric portal. 
 NOTE: If the Customer ID is associated to multiple wallet records, each wallet record needs to be updated individually to reflect the new Customer ID. 
-Ability to dictate ‘From’ email address	PayFabric offers the ability for merchant to use their own domain email address for the following external email communication to their customers instead of using the existing default ‘support@payfabric.com’ to make it easier for their customers to recognize the original sender and avoid any confusion. 
+
+**ADDED.** Ability to dictate ‘From’ email address	PayFabric offers the ability for merchant to use their own domain email address for the following external email communication to their customers instead of using the existing default ‘support@payfabric.com’ to make it easier for their customers to recognize the original sender and avoid any confusion. 
 -	PayFabric’s Payment Confirmation Receipt
 -	PayLink’s Email Notifications
 -	PayLink’s Email Confirmation Receipt
@@ -48,6 +49,7 @@ Ability to dictate ‘From’ email address	PayFabric offers the ability for mer
 - From 'Integration Pending' to 'Integration Failed'
 
 **UPDATED.** Removed Billing Address Validation for Hosted Pages, API and Virtual Terminal.	- PayFabric had removed the partial billing address validation to enable merchant to support international billing addresses.
+
 **FIXED.** Fixed the credit card entry issues - Address the credit card entry user experience issues on PayFabric’s hosted wallet page:
 -	Chrome’s autofill for credit card cannot detect card number/types.
 -	Incorrect cursor placement during wallet entry.
