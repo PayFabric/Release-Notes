@@ -149,7 +149,7 @@ InternalCardAuth: (blank)
 
 # Change Log – Hotfix 06/06/2018 Release
 **ADDED.** Add Enable Security Token configurable setting on PayFabric portal to enable restriction on usage against PayFabric APIs. The PayFabric hotfix release includes a security enhancement to PayFabric to allow 3rd party application(s) integrating to PayFabric to set the restriction on the use of security token against the PayFabric APIs. 
-PayFabric will provide the ability to restrict the security token to be used in hosted page ONLY instead of not both API & Hosted page. The changes are as followed:
+PayFabric will provide the ability to restrict the security token to be used in hosted page ONLY instead of both API & Hosted pages. The changes are as followed:
 PayFabric will provide a new security setting called 'Enable Security Token' on PayFabric Settings with dropdown values below.
 * For APIs and Hosted Pages: this is the default option where security token will be allow to use as the authentication method in both hosted pages and APIs.
 * For Hosted Pages Only: with this option, security token will ONLY be allow to use as the authentication method in hosted pages. The API service response will fail authentication if any API calls was authenticated using security token. 
