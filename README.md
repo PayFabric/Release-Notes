@@ -1,3 +1,46 @@
+# Change Log – 01/28/2019 Release
+
+**ADDED.** Add additional parameters/variables into the PayFabric email receipt templates.
+- [[[TransactionStatus]]] - PayFabric Transaction Status
+- [[[TransactionMsg]]] - PayFabric Transaction Message
+- [[[AuthCode]]] - Gateway Authorization Code
+- [[[CVV2Response]]] - Gateway CVV2 Response Code
+- [[[AddressResponse]]] - Gateway Address Response Code
+- [[[[ZipResponse]]] - Gateway Zip Response Code 
+
+**ADDED.** Enhance PayFabric Partner Portal to provide ability to add new merchant on PayFabric with configurable permission. 
+
+**UPDATED.** Enhance the user experience and user interface for the modern design of virtual terminal. 
+- Adjust modern design of the virtual terminal page to reduce gap and white spaces between fields. 
+- Provide ability to edit form fields on modern version of virtual terminal. User can toggle the option to show/hide or make a field required/optional using the newly enhanced Form Settings page.
+
+**UPDATED.** Rename existing transaction types on PayFabric [portal and API] to follow payment industry common terminologies
+- Book is now Authorization
+- Ship is now Capture
+- Credit is now Refund
+Note: PayFabric API is still able to support the old transaction types for backward compability purpose.
+
+**UPDATED.** Transform the user interface for the PayFabric Email Receipts Templates page into a modern look for better user experience. 
+
+**ADDED.** Add ability to save changes to all email receipt templates. - To make it easier for user to make changes on message body across all email receipt templates, the newly added 'Save to All Templates' will save the changes to the message body to all existing templates. 
+
+**UPDATED.** Remove the 'Locked' flag from PayFabric Wallet grid. 
+
+**UPDATED.** PayFabric logout and organization maintenance options are accessible via mobile devices. 
+
+**FIXED.** Ability to accept masked card number and billing address when creating simulated transaction on PayFabric. 
+
+**ADDED.** Added the newly supported NMI payment gateway for credit card processing.
+
+**FIXED.** Ability to pass shipping address per invoice/document for multiple invoice payment link. 
+
+**ADDED.** Added support for PayFabric Receivables as a newly optional add-on service to PayFabric. It gives businesses the tools to streamline their online presentment and payment needs. Merchant's customers can review outstanding invoice details and make payments themselves, 24/7 via a hosted online customer portal.
+
+**FIXED.** Address issue with duplicate transaction processing on PayFabric by pressing the 'Enter' key on keyboard simutanuously. This fix applies to both web entry and terminal entry processing. 
+
+**FIXED.** PayLink Document API - Address the issue with 'IsMultipleInvoice' flag being changed to 'false' when trying to update the integration status for a payment link.
+
+
 # Change Log – 10/30/2018 Release
 
 **ADDED.** New Email Receipt template - Provide an enhanced version for payment confirmation receipt for all payment processed transaction. 
@@ -66,7 +109,6 @@ NOTE: If the Customer ID is associated to multiple wallet records, each wallet r
 **ADDED.** Enhance Daily Activity Report. -	Add ability to view ‘Receipt’ into Daily Activity Report. New columns in report grid: Actions
 
 **ADDED.** Added Integration Status to exported PayLink document report. - Add a new column for Integration Status into exported PayLink document (excel, CSV) report. 
-
 
 # Change Log – 07/15/2018 Release
 
