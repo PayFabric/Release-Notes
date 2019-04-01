@@ -1,6 +1,6 @@
 # Change Log – 03/31/2019 Release
 
-**ADDED.** Add custom report with automatic email notification based on predefined frequency.
+**ADDED.** Add Custom Reports with automatic email notification based on predefined frequency.
 
 **ADDED.** Batch Processing Support for PayFabric Virtual Terminal with Modern Design.
 
