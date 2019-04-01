@@ -1,3 +1,19 @@
+# Change Log – 03/31/2019 Release
+
+**ADDED.** Add custom report with automatic email notification based on predefined frequency.
+
+**ADDED.** Batch Processing Support for PayFabric Virtual Terminal with Modern Design.
+
+**ADDED.** Pay Later Processing (Scheduled Transaction) Support for PayFabric Virtual Terminal with Modern Design.
+
+**UPDATED.** Enhance the existing PayFabric Boarding from Partner Portal & API.
+- Provide the ability for partner to cancel an existing boarding. 
+- Provide ability for partner to disable 'New Merchant Account Sign Up' option for new merchant boarding.
+
+**UPDATED.** Make the billing email address optional for CybersourceSoap and Cybersource from PayFabric's validation.
+
+**FIXED.** Unable to perform partial refund due to the error: “The refund amount should not greater than the original transaction amount.”
+
 # Change Log – 01/28/2019 Release
 
 **ADDED.** Add additional parameters/variables into the PayFabric email receipt templates.
