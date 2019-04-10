@@ -1,6 +1,39 @@
 # PayFabric Receivables  
 
-## Version 1.0.2 – 1/31/2019  
+## 4/9/2019  
+
+### Receivables Portal  
+
+##### Integration 
+* Enhanced user experience when loading payment details  
+* From the Integration Report, the Payment ID and Identity can be updated and the Application of Payment to Invoice can be removed before the payment is integrated.  
+
+##### Express Pay  
+* From the New Invoice Notification E-mail, the ExpressPayLink variable is now available. When this variable is combined with the CustomerPortalURL variable, it will create a full link in the e-mail to allow users to quickly make a payment without having to sign into the Customer Portal.  
+
+##### Settings  
+* A setting has been added for the organization’s time zone. This setting is used to control the display of the time within the Receivables portal.  
+
+### Customer Portal  
+
+##### Prepayment
+* Prepayments can now be made to create payments that are not associated to invoices. Prepayments can also be made in the same payment as paying invoices.  
+
+##### Continued Payments
+* If the user were to leave the page while making a payment, they will be prompted to continue the payment if they attempt to make a new payment.  
+##### Payment Experience Enhancement
+* The user experience while making a payment has been enhanced to improve the experience of adding and selecting a payment method.  
+##### Pass-Through Authentication
+* When a merchant’s users are already signed into another system, their users can now be can be passed into the Customer Portal without having to sign in. See our Pass-Through Authentication page for more detail.  
+
+
+## 2/14/2019 
+
+### Integration  
+* Microsoft Dynamics 365 Business Central can now be integrated with PayFabric Receivables.  
+
+
+## 1/31/2019  
 
 ### Receivables Portal  
 
