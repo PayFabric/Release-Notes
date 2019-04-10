@@ -24,7 +24,7 @@
 ##### Payment Experience Enhancement
 * The user experience while making a payment has been enhanced to improve the experience of adding and selecting a payment method.  
 ##### Pass-Through Authentication
-* When a merchant’s users are already signed into another system, their users can now be can be passed into the Customer Portal without having to sign in. See our Pass-Through Authentication page for more detail.  
+* When a merchant’s users are already signed into another system, their users can now be can be passed into the Customer Portal without having to sign in. See our [Pass-Through Authentication](https://github.com/PayFabric/APIs/blob/master/Receivables/PassThroughAuthentication.md) page for more detail.  
 
 
 ## 2/14/2019 
