@@ -8,7 +8,7 @@
 
 **FIXED.** Remove inactive user(s) from custom report table so custom report does not get sent to inactive user(s) from PayFabric. 
 
-**FIXED.** Added mapping fields for CybersourceSOAP connector commerceIndicator (ID = 145) and  ItemcommodityCode (ID = 117).
+**FIXED.** Added mapping fields for CybersourceSOAP connector commerceIndicator (ID=145) and  ItemcommodityCode (ID=117).
 
 **ADDED.** Support settlement for EVO connector.
 
