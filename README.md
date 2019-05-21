@@ -1,3 +1,20 @@
+# Change Log – 05/20/2019 Release
+
+**ADDED.** Provide merchant with the ability to automate settlement by a predefined time or manually settle pending transactions.
+
+**ADDED.** Enhanced reporting capabilities by enable merchants to run settlement reports based on the transaction’s settlement status.
+
+**UPDATED.** Enhance the user interface for the existing PayFabric Default Gateway Settings by grouping it together under Gateway Account Profiles sub-menu options. 
+
+**FIXED.** Remove inactive user(s) from custom report table so custom report does not get sent to inactive user(s) from PayFabric. 
+
+**FIXED.** Added mapping fields for CybersourceSOAP connector commerceIndicator (ID = 145) and  ItemcommodityCode (ID = 117).
+
+**ADDED.** Support settlement for EVO connector.
+
+**FIXED.** Truncate the combined value of First Name and Last Name to 30 characters for Paymentech Orbital connector.
+
+
 # Change Log – 03/31/2019 Release
 
 **ADDED.** Add Custom Reports with automatic email notification based on predefined frequency.
