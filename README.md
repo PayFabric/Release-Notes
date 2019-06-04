@@ -1,3 +1,14 @@
+# Change Log – 6/03/2019 Release
+
+**ADDED.** Provide ability to set the accepted tender type via Wallet Link API and PayLink Portal.
+API: add AcceptType field in Create Wallet Link request body
+0 or null or other value: Accept both credit card and ECheck
+1: Credit Card
+2: ECheck
+
+**ADDED.** Add the support of basic authentication for PayFabric API using Device ID and Password. 
+
+
 # Change Log – 05/20/2019 Release
 
 **ADDED.** Provide merchant with the ability to automate settlement by a predefined time or manually settle pending transactions.
