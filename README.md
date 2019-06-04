@@ -5,7 +5,9 @@
 API: add AcceptType field in Create Wallet Link request body
 
 0 or null or other value: Accept both credit card and ECheck
+
 1: Credit Card
+
 2: ECheck
 
 **ADDED.** Add the support of basic authentication for PayFabric API using Device ID and Password. 
