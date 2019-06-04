@@ -2,7 +2,7 @@
 
 **ADDED.** Provide ability to set the accepted tender type via Wallet Link API and PayLink Portal.
 
-API: add AcceptType field in Create Wallet Link request body
+From API, add AcceptType field in Create Wallet Link request body
 
 0 or null or other value: Accept both credit card and ECheck
 
