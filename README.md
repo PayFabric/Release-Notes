@@ -12,6 +12,8 @@ From API, add AcceptType field in Create Wallet Link request body
 
 **ADDED.** Add the support of basic authentication for PayFabric API using Device ID and Password. 
 
+**FIXED.** Exclude EMV Terminal transactions from gateway profile's transaction report as these transactions do not go through normal payment gateway for processing. 
+
 
 # Change Log – 05/20/2019 Release
 
