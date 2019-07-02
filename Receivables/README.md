@@ -51,3 +51,8 @@
 
 ### Customer Portal  
 * Improved User Experience on Login, Forgot Password, Forgot User Name and Registration pages.  
+
+
+## 12/10/2018 
+
+### Launch of PayFabric Receivables  
