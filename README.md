@@ -12,6 +12,8 @@
 
 **UPDATED.** Update PayFabric’s caching framework. 
 
+**FIXED.** Update PayFabric's Cybersource connector to filter out '\n' in ItemProdCode and ItemDesc.
+
 
 # Change Log – 6/03/2019 Release
 
