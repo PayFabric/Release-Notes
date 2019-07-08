@@ -1,3 +1,18 @@
+# Change Log – 7/07/2019 Release
+
+**ADDED.** Enhance Level 2 and Level 3 Support by providing portal virtual terminal users the ability to enter line item data (Level 3) during transaction processing. 
+
+**UPDATED.** Enhance Level 2 and Level 3 Support for Field Level Default by card types.  
+
+**ADDED.** Add End User License Agreement and Service Agreement prompt to portal for every new user account. The Service Agreement will only be prompted for account owner. 
+
+**ADDED.** Provide ability for partner to designate default ‘From’ email for corresponding merchant to partner’s support email address.
+
+**ADDED.** Add the integration support for EVO Now boarding.
+
+**UPDATED.** Update PayFabric’s caching framework. 
+
+
 # Change Log – 6/03/2019 Release
 
 **ADDED.** Provide ability to set the accepted tender type via Wallet Link API and PayLink Portal.
