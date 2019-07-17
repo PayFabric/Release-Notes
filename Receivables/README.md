@@ -1,5 +1,31 @@
 # PayFabric Receivables  
 
+## 7/17/2019
+
+### Receivables Portal
+
+#### Data Import
+*  Data can now be imported to PayFabric Receivables using a spreadsheet file. The following data sets can now be imported to the portal:  
+    * Customers  
+    * Invoices  
+    * Items on Invoices  
+    * Payments  
+    * Application of Payments to Invoices  
+* The mapping of the spreadsheet file to PayFabric Receivables can be saved to a template for future uploads from the same format of data in the future.  
+
+#### Invoice & Payment Reports  
+* Internal users can now view a list of all available invoices and payments from PayFabric Receivables.  
+
+#### Integration Report Export  
+* From the Integration Report, a list of the recently processed payments on PayFabric Receivables can be downloaded to a spreadsheet.
+* This export is available when the *Integration Method* setting is set to the new *File* option.  
+
+### Customer Portal  
+
+##### Payment Terminal and P2PE Device Support  
+* Internal users making payments can now use PayFabric supported payment terminals and point to point encryption P2PE devices for more secure entry of credit card data.  
+
+
 ## 4/9/2019  
 
 ### Receivables Portal  
