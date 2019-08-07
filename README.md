@@ -1,3 +1,16 @@
+# Change Log – 8/06/2019 Release
+
+**ADDED.** Enhancement to PayFabric to provide the support for Visa’s credential-on-file (COF) mandate to identify initial card storage and subsequent use of card information. The COF mandate is intended to provide merchants with higher transaction approval rates. For cardholders, they are expected to benefit from enhanced visibility of card storage or usage and a better overall experience.
+
+**UPDATED.** Similar to Billing Address, PayFabric was changed to not require a complete submission of shipping address information during API call or on hosted page.
+
+**UPDATED.** Currently, PF uses the Tender in Card object to get the default gateway profile when creating/processing transaction. Therefore, the card information is required. In order to support use case where card information is not available during transaction creation, we updated PF to use Tender detail from the Transaction object to get the default gateway profile.
+
+**FIXED.** Unable to load saved wallet records on IE, Safari and Edge for modern design VT when select a customer number using auto-complete customer list. 
+
+**FIXED.** Partner Portal access to PayFabric Receivables service. 
+
+
 # Change Log – 7/07/2019 Release
 
 **ADDED.** Enhance Level 2 and Level 3 Support by providing portal virtual terminal users the ability to enter line item data (Level 3) during transaction processing. 
