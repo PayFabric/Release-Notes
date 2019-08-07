@@ -1,6 +1,6 @@
 # Change Log – 8/06/2019 Release
 
-**ADDED.** Enhancement to PayFabric to provide the support for Visa’s credential-on-file (COF) mandate to identify initial card storage and subsequent use of card information. The COF mandate is intended to provide merchants with higher transaction approval rates. For cardholders, they are expected to benefit from enhanced visibility of card storage or usage and a better overall experience. This feature support is currently only available to EVO connector. 
+**ADDED.** Enhancement to PayFabric to provide the support for Visa’s credential-on-file (COF) mandate to identify initial card storage and subsequent use of card information. The COF mandate is intended to provide merchants with higher transaction approval rates. For cardholders, they are expected to benefit from enhanced visibility of card storage or usage and a better overall experience. This feature support is currently only available to EVO connector, support for other gateways will be added later as available. 
 
 **UPDATED.** Similar to Billing Address, PayFabric was changed to not require a complete submission of shipping address information during API call or on hosted page.
 
