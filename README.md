@@ -6,7 +6,7 @@ The PayFabric sandbox environment for V3 can be accessed via the following URL:
 
    **PayFabric Sandbox**: https://sandbox.payfabric.com/portal
 
-PayFabric Production environment URL remains the same as:
+PayFabric Production environment URL remains the same:
 
   **PayFabric Production:** https://www.payfabric.com/portal
 
