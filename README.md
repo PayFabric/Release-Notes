@@ -1,8 +1,8 @@
 # Change Log – 9/19/2019 Release
 
-**ADDED.** Sandbox environment for PayFabric [V3] Merchant Portal will be separated from Production environment. 
+**ADDED.** Sandbox environment for PayFabric [V3] Merchant Portal will be separated from Production environment. Note: V2 sandbox & production URLs remain the same.
 
-The PayFabric sandbox environment can be accessed via the following URL:
+The PayFabric sandbox environment for V3 can be accessed via the following URL:
 
    **PayFabric Sandbox**: https://sandbox.payfabric.com/portal
 
