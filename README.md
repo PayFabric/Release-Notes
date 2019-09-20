@@ -3,8 +3,11 @@
 **ADDED.** Sandbox environment for PayFabric [V3] Merchant Portal will be separated from Production environment. 
 
 The PayFabric sandbox environment can be accessed via the following URL:
+
 **PayFabric Sandbox**: https://sandbox.payfabric.com/portal
+
 PayFabric Production environment URL remains the same as:
+
 **PayFabric Production:** https://www.payfabric.com/portal
 
 PayFabric Production and Sandbox user account credentials will be completely separated. If you have an existing PayFabric sandbox account, it will automatically get migrated to the new environment and can be accessed using the same user credentials you are currently using today. Going forward, changes made against an account from one environment will not impact the other environment. 
