@@ -1,3 +1,17 @@
+# Change Log – 9/19/2019 Release
+
+**ADDED.** Sandbox environment for PayFabric [V3] Merchant Portal will be separated from Production environment. 
+
+The PayFabric sandbox environment can be accessed via the following URL:
+**PayFabric Sandbox**: https://sandbox.payfabric.com/portal
+PayFabric Production environment URL remains the same as:
+**PayFabric Production:** https://www.payfabric.com/portal
+
+PayFabric Production and Sandbox user account credentials will be completely separated. If you have an existing PayFabric sandbox account, it will automatically get migrated to the new environment and can be accessed using the same user credentials you are currently using today. Going forward, changes made against an account from one environment will not impact the other environment. 
+
+The ability to toggle between production and sandbox environments will no longer be available on the PayFabric top navigation bar. The ability to copy PayFabric settings from sandbox to production during Production switch will also no longer be available.
+
+
 # Change Log – 8/06/2019 Release
 
 **ADDED.** Enhancement to PayFabric to provide the support for Visa’s credential-on-file (COF) mandate to identify initial card storage and subsequent use of card information. The COF mandate is intended to provide merchants with higher transaction approval rates. For cardholders, they are expected to benefit from enhanced visibility of card storage or usage and a better overall experience. This feature support is currently only available to EVO connector, support for other gateways will be added later as available. 
