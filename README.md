@@ -12,7 +12,7 @@ PayFabric Production environment URL remains the same:
 
 PayFabric Production and Sandbox user account credentials will be completely separated. If you have an existing PayFabric sandbox account, it will automatically get migrated to the new environment and can be accessed using the same user credentials you are currently using today. Going forward, changes made against an account from one environment will not impact the other environment. 
 
-The ability to toggle between production and sandbox environments will no longer be available on the PayFabric top navigation bar. The ability to copy PayFabric settings from sandbox to production during Production switch will also no longer be available.
+The ability to toggle between production and sandbox environments will no longer be available on the PayFabric top navigation bar. The ability to copy PayFabric settings from sandbox to production during Production switch will also no longer be available. The ability to self-register on Sandbox will remain the same but the ability to self-register a Production account will be removed. Merchants with a need for a Production PayFabric account can be setup by PayFabric Support team or through our PayFabric integration partners.
 
 
 # Change Log – 8/06/2019 Release
