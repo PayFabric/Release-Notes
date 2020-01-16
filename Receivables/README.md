@@ -1,5 +1,17 @@
 # PayFabric Receivables  
 
+## 1/16/2020
+
+### AutoPay
+* Customer's can now be registered for automatic recurring payments. Multiple frequency and payment amount options are available. 
+
+### AutoPay Templates
+* The organization can specify the settings for how automatic payments should be processed based on the business preferences. Multiple templates can be created to provide different AutoPay options to customers. 
+
+### AutoPay E-mail Templates
+* New e-mail templates are available to be sent to customers when an AutoPay payment is approved or fails to be processed. 
+
+
 ## 7/17/2019
 
 ### Receivables Portal
