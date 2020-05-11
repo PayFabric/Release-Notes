@@ -1,3 +1,33 @@
+# Change Log – 5/11/2020 Release
+
+**UPDATED.** Enhance Level 2 and Level 3 Support with the following changes:
+-	Update User Interface to improve user experience for Level 2/3 Field Defaults on Modern design.
+-	Update Form Settings for Virtual Terminal’s Web Entry to provide merchant flexibility on field display options during transaction processing. 
+-	Added BIN Range Validation option for Level 2 and 3 Support.
+-	Providing portal virtual terminal users the ability to lookup line item data (Level 3) using uploaded products/items during transaction processing. 
+-	Add ability to upload products/items to be used during transaction processing on Virtual Terminal.
+
+**ADDED.** Enhancement to PayFabric to extend the support for Visa’s credential-on-file (COF) mandate for both Paymentech and Cybersource gateways. 
+
+**ADDED.** Added ability to export customer list from partner’s portal.  
+
+**ADDED.** Added support for organization management under user role and permission. 
+
+**ADDED.** Added support for negative quantity line item on PayLink. 
+
+**UPDATED.** Updated all card brand logos on PayFabric to most recent logo version.
+
+**UPDATED.** Updated session timeout to 15 minutes for better user experience. 
+
+**FIXED.** Add BCC option will no longer bring the cursor to the top of the page and will maintain the user to be within the BCC section to enter email address for BCC.
+
+**FIXED.** Ensure the partner organization’s ‘from’ email is being used for resend email receipt.
+
+**FIXED.** Browser compatibility support with ‘SameSite’ attribute on cookies. 
+
+**FIXED.** Addressed issue with sporadic status change for generated payment link due to caching.
+
+
 # Change Log – 9/19/2019 Release
 
 **ADDED.** Sandbox environment for PayFabric [V3] Merchant Portal will be separated from Production environment. **NOTE:** V2 sandbox & production URLs remain the same.
