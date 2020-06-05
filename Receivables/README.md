@@ -1,5 +1,36 @@
 # PayFabric Receivables  
 
+## 6/5/2020
+
+### E-mail Enhancements
+* The e-mail template setup process has been completely redesigned to improve the e-e-mail template setup experience for users. 
+* All of the default e-mail templates have a new updated design that is optimized for display on mobile devices. 
+    * Customers with existing configured e-mail templates can utilize the new templates by clicking the reset button in the e-mail template editor. 
+* New variables are available for the large company logo, small company logo and company e-mail. 
+### Invoice Reminder
+* A new e-mail type is available to allow for a reminder e-mail to be sent for outstanding invoices. 
+* This e-mail can be manually sent from the Invoice report page to one or multiple recipients.
+* This e-mail can also be scheduled to be automatically sent based on the age of the invoice. Reminders can be scheduled before, on or after the invoice due date and each reminder can be configured to have different messaging. 
+### PDF File Attachments
+* On e-mail templates such as the New Invoice Notification and the Invoice Reminder, an option is available to automatically attach a PDF version of the invoice to the e-mail. 
+### E-mail Report
+* A new page is available to show all e-mails sent out from PayFabric Receivables. Users can view the details of each individual e-mail and also resend previously sent e-mails. 
+### Pass-Through Authentication Improvements
+* A new configuration option is available for pass-through authentication. The new Originating Portal URL option will redirect any users who reach the Customer Portal login page to another webpage such as the login page for the integrating application. 
+### Data Import Updates
+* A sample of the expected spreadsheet file with headers can be downloaded for any Data Import template. 
+* Data import templates can now be deleted
+### Delete Invoices
+* Invoices can now be deleted from the invoice report page individually and in bulk. 
+### Functional Currency Setup Option
+* A new setting is available to allow the functional currency to be changed for the organization. 
+### API Help
+* A new API help page is now available to make it easier for developers to work with the Receivables API by providing interactive tests and sample data. https://sandbox.payfabric.com/receivables/apihelp
+
+
+
+
+
 ## 1/16/2020
 
 ### AutoPay
