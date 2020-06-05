@@ -3,7 +3,7 @@
 ## 6/5/2020
 
 ### E-mail Enhancements
-* The e-mail template setup process has been completely redesigned to improve the e-e-mail template setup experience for users. 
+* The e-mail template setup process has been completely redesigned to improve the e-mail template setup experience for users. 
 * All of the default e-mail templates have a new updated design that is optimized for display on mobile devices. 
     * Customers with existing configured e-mail templates can utilize the new templates by clicking the reset button in the e-mail template editor. 
 * New variables are available for the large company logo, small company logo and company e-mail. 
