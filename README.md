@@ -10,6 +10,8 @@
 
 **ADDED.** Added prompted warning message for EMV transaction if user clicks 'Back' or 'Close' browser on-screen with "Communicating with Terminal'.
 
+**UPDATED.** Updated data serialization specifically for EVO connector related to L2/L3 support.
+
 **FIXED.** Addressed the issue with boarding API not able to post data to provided callback URL during merchant boarding. 
 
 
