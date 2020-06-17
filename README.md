@@ -2,7 +2,7 @@
 
 **ADDED.** Enhancement to PayFabric's merchant portal to improve performance across entire site. 
 
-**ADDED.** Enhancement to PayFabric Receivables to support From email update.
+**ADDED.** Enhancement to support From email update specifically for PayFabric Receivables.
 
 **ADDED.** Added ability to enable 3rd party application to suppress automatic email receipt from PayFabric during API call. 
 
