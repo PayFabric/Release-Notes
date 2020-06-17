@@ -1,3 +1,18 @@
+# Change Log – 6/16/2020 Release
+
+**ADDED.** Enhancement to PayFabric's merchant portal to improve performance across entire site. 
+
+**ADDED.** Enhancement to PayFabric Receivables to support From email update.
+
+**ADDED.** Added ability to enable 3rd party application to suppress automatic email receipt from PayFabric during API call. 
+
+**ADDED.** Added support for $0.00 unit price on PayLink. 
+
+**ADDED.** Added prompted warning message for EMV transaction if user clicks 'Back' or 'Close' browser on-screen with "Communicating with Terminal'.
+
+**FIXED.** Addressed the issue with boarding API not able to post data to provided callback URL during merchant boarding. 
+
+
 # Change Log – 5/11/2020 Release
 
 **UPDATED.** Enhance Level 2 and Level 3 Support with the following changes:
