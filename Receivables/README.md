@@ -2,6 +2,8 @@
 
 ## 6/5/2020
 
+Video: http://www.youtube.com/watch?v=V7jTXq3QQOc
+
 ### E-mail Enhancements
 * The e-mail template setup process has been completely redesigned to improve the e-mail template setup experience for users. 
 * All of the default e-mail templates have a new updated design that is optimized for display on mobile devices. 
