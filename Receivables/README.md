@@ -1,5 +1,37 @@
 # PayFabric Receivables  
 
+## 8/5/2020
+
+Video: https://www.youtube.com/watch?v=SuyJzXPJ2Yc
+
+### User Experience Enhancements
+* The experience of accessing customer data has been improved to focus on easier transition between managing customer accounts.  
+* The settings have been reorganized for easier navigation.  
+
+### Customer Portal User Management
+* Customer portal users can now be invited to sign up for the customer portal  
+* Multiple users can now be created for a single customer account  
+* Password reset requests can now be initiated from within the portal  
+* Customer Portal Users can be uploaded in bulk using the Data Import utility.  
+
+### User Permissions
+*Access permissions are now available to assign internal users have access to PayFabric Receivables functionality.  
+*Permission groups are also available to be assigned to users of the customer portal  
+
+### Invoice PDF Files
+* A PDF file can now downloaded when viewing an invoice  
+* A PDF file can now be uploaded using the Receivables API to be presented instead of the generated invoice template.  
+
+### New Transaction Fields
+* Additional fields Customer Tax Exempt Number, Customer Company Name, and Item Commodity Code are available from the PayFabric Receivables API to be sent during payment processing  
+
+### Pass-Through Authentication Enhancements
+* Additional parameters are available for Pass-Through Authentication to create a more seamless experience for users being passed into the PayFabric Receivables customer portal from another application.  
+
+
+
+
+
 ## 6/5/2020
 
 Video: http://www.youtube.com/watch?v=V7jTXq3QQOc
@@ -9,23 +41,31 @@ Video: http://www.youtube.com/watch?v=V7jTXq3QQOc
 * All of the default e-mail templates have a new updated design that is optimized for display on mobile devices. 
     * Customers with existing configured e-mail templates can utilize the new templates by clicking the reset button in the e-mail template editor. 
 * New variables are available for the large company logo, small company logo and company e-mail. 
+
 ### Invoice Reminder
 * A new e-mail type is available to allow for a reminder e-mail to be sent for outstanding invoices. 
 * This e-mail can be manually sent from the Invoice report page to one or multiple recipients.
 * This e-mail can also be scheduled to be automatically sent based on the age of the invoice. Reminders can be scheduled before, on or after the invoice due date and each reminder can be configured to have different messaging. 
+
 ### PDF File Attachments
 * On e-mail templates such as the New Invoice Notification and the Invoice Reminder, an option is available to automatically attach a PDF version of the invoice to the e-mail. 
+
 ### E-mail Report
 * A new page is available to show all e-mails sent out from PayFabric Receivables. Users can view the details of each individual e-mail and also resend previously sent e-mails. 
+
 ### Pass-Through Authentication Improvements
 * A new configuration option is available for pass-through authentication. The new Originating Portal URL option will redirect any users who reach the Customer Portal login page to another webpage such as the login page for the integrating application. 
+
 ### Data Import Updates
 * A sample of the expected spreadsheet file with headers can be downloaded for any Data Import template. 
 * Data import templates can now be deleted
+
 ### Delete Invoices
 * Invoices can now be deleted from the invoice report page individually and in bulk. 
+
 ### Functional Currency Setup Option
 * A new setting is available to allow the functional currency to be changed for the organization. 
+
 ### API Help
 * A new API help page is now available to make it easier for developers to work with the Receivables API by providing interactive tests and sample data. https://sandbox.payfabric.com/receivables/apihelp
 
