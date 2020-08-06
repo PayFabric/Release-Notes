@@ -1,3 +1,22 @@
+# Change Log – 8/19/2020 Release
+
+**ADDED.** Support surcharge for EVO gateway.
+
+**ADDED.** Added ability to send PayLink and Wallet Link to multiple email address and multiple phone number.
+
+**ADDED.** Added ability for B2B partner to reset merchants' password from the portal.  . 
+
+**ADDED.** Added ability to accept multiple shipping email addresses when creating transaction and create paylink. 
+
+**ADDED.** Add ability for ‘full’ partner & merchant the ability to set user role permission to override the maximum transaction limit (fixed amount) from the global setting. 
+
+**UPDATED.** Update the maximum amount per transaction setting for merchant to configure a global setting for the maximum transaction amount for both Sale & Refund transaction for both credit card and eCheck. 
+
+**FIXED.** Enhancement to PayFabric's settlement process to improve performance. 
+
+**Remove.** Remove the ability to send custom surcharge amount from PayLink portal and PayLink API, the surcharge amount now will be auto calculated by PayFabric based on the configured surcharge rate.
+
+
 # Change Log – 6/16/2020 Release
 
 **ADDED.** Enhancement to PayFabric's merchant portal to improve performance across entire site. 
