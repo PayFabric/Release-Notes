@@ -1,3 +1,34 @@
+# Change Log – 8/19/2020 Release
+
+**ADDED.** Enhancement to PayFabric to support surcharge with EVO processing platform. 
+
+**ADDED.** Enhancement to PayFabric's sale and credit ceiling to allow merchant to configure maximum transaction amount for both sale and refund transaction for specific payment method (credit card and eCheck).
+
+**ADDED.** Support multiple email addresses in PayLink API and PayLink portal. 
+
+**ADDED.** Support multiple shipping email addresses in PayLink API and PayLink portal.  
+
+**ADDED.** Support CIT/MIT for CybersourceSOAP with Moneris processor.
+
+**ADDED.** Added validate transaction type for additional CybersourceSOAP processors for CIT/MIT.
+
+**FIXED.** Corrected card type mapping from AmericanExpress to Amex for Paymentech and CybersourceSOAP gateways.
+
+**FIXED.** PayFabric is updated to handle the scenario with negative line item amount as negative amount is not supported on EVO connector.
+
+**FIXED.** PayFabric is updated to omit tax exempt details for void transaction to resolve the DTD error for Paymentech connector.
+
+**FIXED.** PayFabric is updated to address L2/L3 issue on American Express for EVO connector to restricted to only whole number on the line item quantity.
+
+**FIXED.** PayFabric is updated to address an issue with force transaction for CybersourceSOAP connector with AIBMS processor.
+
+**FIXED.** PayFabric is updated to address an issue with Forte gateway regarding FailOnAVSAddress, FailOnAVSZip and FailOnCVV2 identifiers are not supported.
+
+**FIXED.** PayFabric is updated to address an issue with CybersourceSOAP gateway regarding processing Authorization transaction with Elavon processor.
+
+**FIXED.** PayFabric is updated to trim the trailing space for unit of measure value on Payeezy connector.
+
+
 # Change Log – 6/16/2020 Release
 
 **ADDED.** Enhancement to PayFabric's merchant portal to improve performance across entire site. 
