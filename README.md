@@ -27,6 +27,8 @@
 
 **FIXED.** PayFabric is updated to address an issue with CybersourceSOAP gateway regarding processing Authorization transaction with Elavon processor.
 
+**FIXED.** PayFabric is updated to change the column name 'CardName' to 'CardType' within the downloadable custom report. This will maintain the consistency with the custom report fields on the user interface. 
+
 **FIXED.** PayFabric is updated to trim the trailing space for unit of measure value on Payeezy connector.
 
 
