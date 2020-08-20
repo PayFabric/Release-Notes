@@ -3,7 +3,7 @@
 **ADDED.** Enhancement to PayFabric to support surcharge with EVO processing platform. 
 **Important Note: Merchants must register with the card brands to be enrolled in the surcharge program prior to use this feature on PayFabric. Contact PayFabric Support to request for assistance to sign up with surcharge program.** 
 
-**ADDED.** Enhancement to PayFabric's sale and credit ceiling to allow merchant to configure maximum transaction amount for both sale and refund transaction for specific payment method (credit card and eCheck).
+**ADDED.** Enhancement to PayFabric's sale and credit ceiling to allow merchant to configure maximum transaction amount for both sale and refund transaction for specific payment method (credit card and eCheck). This is available on both global and user level. 
 
 **ADDED.** Support multiple email addresses in PayLink API and PayLink portal. 
 
