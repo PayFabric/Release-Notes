@@ -1,3 +1,22 @@
+# Change Log – 11/12/2020 Release
+
+**ADDED.** Enhancement to PayFabric L2/L3 BIN Range Validation and Form Settings where line items details are only required on the virtual terminal if card level is purchasing/corporate/business card.
+
+**ADDED.** Added a new menu called Integrations under PayFabric Settings. This Integrations menu will contain the existing Bluefin P2PE integration. There will also a newly added integration support for SAP DPA, a cloud digital payment platform for SAP.
+
+**ADDED.** Provide ability to specify a PageSize parameter for Get Transaction API, supported max page size is 15. This new added parameter is optional. 
+
+**ADDED.** Provide ability to specify an End Date parameter for Get Transaction API to filter transactions during retrieval from PayFabric. This new added parameter is optional.
+
+**ADDED.** Added new fields for Cybersource to support new Refund Authorization logic for refund transaction. 
+
+**FIXED.** Properly handle the error ‘Bad Request – Request Too Long’ on PayFabric hosted page with Chrome browser for SameSite=default cookies.
+
+**FIXED.** Properly updated organization name across PayFabric portal, email receipts and services. 
+
+**FIXED.** Addressed CybersourceSOAP/Cybersource gateway issue where it does not accept Mastercard number with a  2-digit BIN. 
+
+
 # Change Log – 8/19/2020 Release
 
 **ADDED.** Enhancement to PayFabric to support surcharge with EVO processing platform. 
