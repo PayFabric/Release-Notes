@@ -2,7 +2,7 @@
 
 **ADDED.** Enhancement to PayFabric L2/L3 BIN Range Validation and Form Settings where line items details are only required on the virtual terminal if card level is purchasing/corporate/business card.
 
-**ADDED.** Added a new menu called Integrations under PayFabric Settings. This Integrations menu will contain the existing Bluefin P2PE integration. There will also a newly added integration support for SAP DPA, a cloud digital payment platform for SAP.
+**ADDED.** Added a new menu called Integrations under PayFabric Settings. This Integrations menu will contain the existing Bluefin P2PE integration. There is also a newly added integration support for SAP DPA, a cloud digital payment platform for SAP.
 
 **ADDED.** Provide ability to specify a PageSize parameter for Get Transaction API, supported max page size is 15. This new added parameter is optional. 
 
