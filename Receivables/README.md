@@ -15,8 +15,8 @@ Video: https://www.youtube.com/watch?v=SuyJzXPJ2Yc
 * Customer Portal Users can be uploaded in bulk using the Data Import utility.  
 
 ### User Permissions
-*Access permissions are now available to assign internal users have access to PayFabric Receivables functionality.  
-*Permission groups are also available to be assigned to users of the customer portal  
+* Access permissions are now available to assign internal users have access to PayFabric Receivables functionality.  
+* Permission groups are also available to be assigned to users of the customer portal  
 
 ### Invoice PDF Files
 * A PDF file can now downloaded when viewing an invoice  
