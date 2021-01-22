@@ -1,5 +1,53 @@
 # PayFabric Receivables  
 
+## 1/21/2021
+
+Video: https://www.youtube.com/watch?v=r3DqgNq72Tw  
+
+### Dashboard
+* A new dashboard page is available when accessing PayFabric Receivables. This page will display a high level overview of the company's Receivables status.
+
+### Customer Enhancements
+* A new Customer Editor interface is now available to create & edit customer records and customer address information.
+* The Customer Report page has received the following updates:
+	* A button has been added create a new customer record.
+	* Clicking a customer record will now display an Edit option to modify the customer record.
+	* New Columns have been added to show if the customer is subscribed to AutoPay and the registered users of the Customer Portal
+* A new Customer Management Settings page is available to control access to the Customer Editor for all users and additional settings related to the customer editor.
+* Create and Edit Customer user permissions are now available to control which users can Create or Edit customer records.
+
+### Invoice Enhancements
+* A new Invoice Editor interface is available to create invoice records with item detail.
+* A new Invoice Management Settings page is available to control access to the Invoice Editor for all users and additional settings related to the Invoice Editor.
+* A Create Invoice user permission is now available to control which users can create invoice records.
+* The Invoice Report has received the following updates
+	* A button has been added to allow for creating a new invoice record
+	* New columns for Status and E-mail have been added
+	* The default filter on the page is now based on the status column
+	* The customer ID column can now be clicked and functions the same as clicking a customer record on the Customer Report
+	* Clicking an Invoice ID now presents a menu with available options for working with the invoice.
+* Invoice Types are now available to classify invoices into groups
+	* A new Invoice Types settings page is available for creating and editing Invoice Types.
+	* The New Invoice Notification E-mail can now be restricted to only be sent for certain Invoice Types
+	* Automated Invoice Reminder E-mails can now be restricted to only be sent for certain Invoice Types
+	* AutoPay Templates can be configured to only pay invoices of certain Invoice Types
+* Multiple Invoice Templates can now be created to be assigned to different Invoice Types.
+* New variables for Item Markdown and Item Comment are now available for the Invoice Template
+* Each Invoice can now be assigned primary e-mail and copy e-mail addresses to control the recipients of the e-mail notifications regarding an individual invoice.
+* A New Item Editor interface is available to create items to be used on invoices.
+
+### Data Import
+* Items can now be created in bulk with the new Item import option
+* Customers can now be registered for AutoPay in bulk with the new AutoPay import option
+* Email and Copy Email fields are now available when importing Invoices.
+* An Item Comment field is now available when importing Invoice Items.
+
+### API
+* All Invoice APIs have been updated to include the Email, CopyEmail and Item Comment parameters
+* Item GET and POST APIs are now available for retrieving and pushing item detail to PayFabric Receivables.
+* All AutoPay APIs have been updated to include the Invoice Type parameter
+* Customer POST API will now update the Name value with the CustomerID if the Name is blank or null
+
 ## 8/5/2020
 
 Video: https://www.youtube.com/watch?v=SuyJzXPJ2Yc
