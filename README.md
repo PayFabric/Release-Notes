@@ -1,3 +1,12 @@
+# Change Log – 01/25/2021 Release
+
+**ADDED.** Add new transaction type 'Verify' for Create/Update/Process Transaction API to to validate credit card number via EVOSnap connector.
+
+# Change Log – 12/09/2021 Release
+
+**ADDED.** Add Data Level Qualification option for 'ItemAmount' and 'ItemCost' field on form setting
+**ADDED.** Add ability for B2B partner to control the merchants IgnoreDuplicate for EVO connector
+
 # Change Log – 11/12/2020 Release
 
 **ADDED.** Enhancement to PayFabric L2/L3 BIN Range Validation and Form Settings where line items details are only required on the virtual terminal if card level is purchasing/corporate/business card.
