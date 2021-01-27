@@ -4,9 +4,9 @@
 
 # Change Log – 12/09/2021 Release
 
-**ADDED.** Add Data Level Qualification option for 'ItemAmount' and 'ItemCost' field on form setting
+**ADDED.** Add Data Level Qualification option for 'ItemAmount' and 'ItemCost' field on form setting.
 
-**ADDED.** Add ability for B2B partner to control the merchants IgnoreDuplicate for EVO connector
+**ADDED.** Add ability for B2B partner to control the merchants IgnoreDuplicate for EVO connector.
 
 # Change Log – 11/12/2020 Release
 
