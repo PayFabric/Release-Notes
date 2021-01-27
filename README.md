@@ -1,12 +1,12 @@
 # Change Log – 01/25/2021 Release
 
-**ADDED.** Add new transaction type 'Verify' for Create/Update/Process Transaction API to to validate credit card number via EVOSnap connector.
+**ADDED.** Provide ability to support _Verify_ transaction with Create/Update/Process Transaction API for EVO gateway.
 
 # Change Log – 12/09/2021 Release
 
-**ADDED.** Add Data Level Qualification option for 'ItemAmount' and 'ItemCost' field on form setting.
+**ADDED.** Added Data Level Qualification option for 'ItemAmount' and 'ItemCost' fields on form setting.
 
-**ADDED.** Add ability for B2B partner to control the merchants IgnoreDuplicate for EVO connector.
+**ADDED.** Provide ability for B2B partner to control the merchants IgnoreDuplicate for EVO gateway.
 
 # Change Log – 11/12/2020 Release
 
