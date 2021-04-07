@@ -1,3 +1,50 @@
+# Change Log – 04/19/2021 Release
+**Added.**	Add ability to show display name for the from email.
+
+**Fixed.**	Nexmo SMS Message - Transition to Toll Free Number SMS Number.
+
+**Added.**	PayPal as a new Alternative Payment Method.	
+
+**Added.**	PayPal APM: Hosted Payment Page.	
+
+**Added.**	Add ability to unassociated phone number for customer in console.
+
+**Added.**	Mobile Ready Hosted Payment Page.	
+
+**Added.**  EVO ACH support in PayFabric.	
+
+**Fixed.**  FirstDataGGe4: Unable to process if Transaction has non-ASCII characters in Billing address or ShiptoName field.
+
+**Fixed.**  Should trim the non-ASCII characters for all fields.
+
+**Fixed.**  Remove unsupported connectors.
+
+**Fixed.**  Should filter special characters for company name for CybersourceSoap.
+
+**Fixed.**  Remove invalid default values in connectors.
+
+**Fixed.**  Got OnDoTransaction exception error for CybersourcesSOAP gateway randomly.
+
+**Fixed.**  Evo Connector - Tax Exempt Number all to pass in alpha numeric value.
+
+**Fixed.**  The process button is cut off on paylink page in mobile and the process button is covered when there is surcharge.
+
+**Fixed.**  Missing Virtual terminal device/theme when add instance to DCN3 in console.	
+
+**Fixed.**  Service agreement OK button still not available even scroll to the end.	
+
+**Fixed.**  Auto log out does not work on some browsers and some certain time.	
+
+**Fixed.**  The custom report values not map the fields name when the values contain special characters.
+
+**Updated.** Apply default gateway logic change when creating/updating/process transaction via API.
+             
+             a. PayFabric will use the currency's default gateway while both SetupID and Tender are blank, if default gateway does not configured, will error out.
+             
+             b. PayFabric will use the passed SetupId customer specified in API.
+             
+             c. PF will clear the wallet info on the original transaction when updating transaction from ECheck transaction to credit card transaction or from credit card transaction to ECheck transaction.
+
 # Change Log – 01/25/2021 Release
 
 **ADDED.** Provide ability to support _Verify_ transaction with Create/Update/Process Transaction API for EVO gateway.
