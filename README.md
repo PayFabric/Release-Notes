@@ -1,8 +1,6 @@
 # Change Log – 04/19/2021 Release
 **Added.**	Add ability to show display name for the from email.
 
-**Fixed.**	Nexmo SMS Message - Transition to Toll Free Number SMS Number.
-
 **Added.**	PayPal as a new Alternative Payment Method.	
 
 **Added.**	PayPal APM: Hosted Payment Page.	
