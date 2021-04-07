@@ -35,6 +35,8 @@
 
 **Fixed.**  The custom report values not map the fields name when the values contain special characters.
 
+**Updated.** Nexmo SMS Message - Transition to Toll Free Number SMS Number.
+
 **Updated.** Apply default gateway logic change when creating/updating/process transaction via API.
              
              a. PayFabric will use the currency's default gateway while both SetupID and Tender are blank, if default gateway does not configured, will error out.
