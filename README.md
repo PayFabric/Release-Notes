@@ -3,7 +3,7 @@
 
 **Added.**	PayPal as a new Alternative Payment Method.	
 
-**Added.**	PayPal APM: Hosted Payment Page.	
+**Added.**	Mobile Hosted Payment Page.	
 
 **Added.**	Add ability to unassociated phone number for customer in console.
 
