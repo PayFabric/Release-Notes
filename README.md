@@ -12,7 +12,7 @@
 
 **FIXED.** Addressed Service Agreement issue with browser that prevent user to be able to agree and accept the terms and conditions.
 
-**FIXED.** Updated the videos and contents on PayFabric services’ splash pages.
+**UPDATED.** Updated the videos and contents on PayFabric services’ splash pages.
 
 
 # Change Log – 01/25/2021 Release
