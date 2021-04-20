@@ -2,7 +2,7 @@
 
 **ADDED.** Added the mobile ready hosted payment page to provide fully responsive hosted payment page, designed to enhance user experience on mobile devices.
 
-**ADDED.** PayPal transaction acceptance will be available as an additional payment method against the new PayFabric’s mobile ready hosted payment paGE. 
+**ADDED.** PayPal transaction acceptance will be available as an additional payment method against the new PayFabric’s mobile ready hosted payment page. 
 
 **ADDED.** Supports integration to upcoming EVO ACH platform for ACH transaction processing.
 
