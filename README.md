@@ -1,6 +1,25 @@
+# Change Log – 04/19/2021 Release
+
+**ADDED.** Added the mobile ready hosted payment page to provide fully responsive hosted payment page, designed to enhance user experience on mobile devices.
+
+**ADDED.** PayPal transaction acceptance will be available as an additional payment method against the new PayFabric’s mobile ready hosted payment paGE. 
+
+**ADDED.** Supports integration to upcoming EVO ACH platform for ACH transaction processing.
+
+**FIXED.** Should not calculate surcharge when user enters an invalid credit card number.
+
+**FIXED.** Addressed PayLink’s Level 3 issues with Paymentech’s PNS platform.
+
+**FIXED.** Addressed Service Agreement issue with browser that prevent user to be able to agree and accept the terms and conditions.
+
+**FIXED.** Updated the videos and contents on PayFabric services’ splash pages.
+
+
 # Change Log – 01/25/2021 Release
 
 **ADDED.** Provide ability to support _Verify_ transaction with Create/Update/Process Transaction API for EVO gateway.
+
+**ADDED.** Transition 5-digits short codes to toll-free number due to carriers' industry mandate for text messages.
 
 # Change Log – 12/09/2021 Release
 
