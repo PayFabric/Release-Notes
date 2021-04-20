@@ -21,7 +21,7 @@
 
 **ADDED.** Transition 5-digits short codes to toll-free number due to carriers' industry mandate for text messages.
 
-# Change Log – 12/09/2021 Release
+# Change Log – 12/09/2020 Release
 
 **ADDED.** Added Data Level Qualification option for 'ItemAmount' and 'ItemCost' fields on form setting.
 
