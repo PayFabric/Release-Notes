@@ -8,6 +8,8 @@
 
 **FIXED.** Should not calculate surcharge when user enters an invalid credit card number.
 
+**FIXED.** Provided the support to include 'Display Name' if there is a need to change the default 'From' email address.
+
 **FIXED.** Addressed PayLink’s Level 3 issues with Paymentech’s PNS platform.
 
 **FIXED.** Addressed Service Agreement issue with browser that prevent user to be able to agree and accept the terms and conditions.
