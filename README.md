@@ -1,3 +1,34 @@
+# Change Log – 07/20/2021 Release
+
+**ADDED.** Add an authentication method for boarding api
+
+**ADDED.** Add Batch Close time in the response for "GET /setupid/" API
+
+**ADDED.** PayFabric APIs Control
+
+**ADDED.** PayLink APIs Control
+
+**ADDED.** Add Transaction State and Settlement Details to all Transaction APIs
+
+**ADDED.** Add eService Certification with EVO Snap* and support 3D Secure 2.0
+
+**ADDED.** Advice Support for SAP DPA
+
+**ADDED.** Add ability to Process Manual Batch Close via API
+
+**ADDED.** Support additional field mappings for Cybersource 3DS
+
+**Update.** Set maximum custom report limit to 20
+
+**Update.** Reduce EVO Snap* Timeout From 100 to 37 Seconds
+
+**Update.** Return 'EntryMode' in PayFabric GetTransaction API
+
+**UPDATE.** Custom Reports should support additional Transaction State (formally Settlement Status) values
+
+**UPDATE.** Processed Transaction should return Saved Wallet ID
+
+
 # Change Log – 04/19/2021 Release
 
 **ADDED.** Added the mobile ready hosted payment page to provide fully responsive hosted payment page, designed to enhance user experience on mobile devices.
