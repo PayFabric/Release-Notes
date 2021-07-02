@@ -18,11 +18,11 @@
 
 **ADDED.** Support additional field mappings for Cybersource 3DS
 
-**Update.** Set maximum custom report limit to 20
+**UPDATE.** Set maximum custom report limit to 20
 
-**Update.** Reduce EVO Snap* Timeout From 100 to 37 Seconds
+**UPDATE.** Reduce EVO Snap* Timeout From 100 to 37 Seconds
 
-**Update.** Return 'EntryMode' in PayFabric GetTransaction API
+**UPDATE.** Return 'EntryMode' in PayFabric GetTransaction API
 
 **UPDATE.** Custom Reports should support additional Transaction State (formally Settlement Status) values
 
