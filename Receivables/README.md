@@ -1,5 +1,34 @@
 # PayFabric Receivables  
 
+## 7/6/2021  
+
+Video: https://www.youtube.com/watch?v=dk1pwSeCNGs  
+Guide: https://www.nodus.com/documentation/PayFabric-Receivables-Release-Notes.pdf  
+
+### Customer Enhancements
+* Default payment terms can now be assigned to customer records
+
+### Invoice Enhancements
+* When creating an invoice, payment terms have been enhanced to automatically calculate the Invoice Due Date and provide discount options.
+* A new option is available to add an approval step before an invoice is completed and sent to customers.
+
+### Payment Enhancements
+* Available Payment Terms Discounts will not automatically be applied to payments when applicable
+* A customer's available credit balance can now be applied during a payment. During the payment process, a user can select which available credits should be applied to invoices.
+* A new e-mail template is available when only a credit is applied during a payment without a new transaction.
+* A customer's available credit balance can now be configured automatically be applied during recurring payments
+* When a user attempts to leave a payment, they will now be prompted if they want to leave the payment screen.
+* Companies processing transactions with EVO Payments can now add a processing surcharge to credit card transactions processed on PayFabric Receivables. With surcharging enabled, an additional amount will automatically be added to the payment if the user is paying by credit card. Before enabling credit card surcharging, please make sure to consider the surcharging rules and regulations to determine if credit card surcharging is a good fit for your business.
+* For internal users, a new option to simply record an already accepted payment without processing is now available.
+* The payment receipt page has been updated with a new style. Also, download and e-mail forwarding options are now available directly on the payment receipt.
+* The historical payment details page has also been updated with a new style
+* The Notes field can now be included on the Payment confirmation receipt.
+
+### Integration Enhancements
+* New record types are now available to be integrated with other systems. New Customer, Invoice, Application and Surcharges are all available to be integrated from the API.
+* A new integration details page showing more information about the history of the integration record is now available.
+* The exported report on the integration page has now been enhanced to include the additional record types and more detail for integrated payments.
+
 ## 1/21/2021
 
 Video: https://www.youtube.com/watch?v=r3DqgNq72Tw  
