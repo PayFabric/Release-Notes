@@ -5,7 +5,7 @@
 Video: https://www.youtube.com/watch?v=dk1pwSeCNGs  
 Guide: https://www.nodus.com/documentation/PayFabric-Receivables-Release-Notes.pdf  
 
-### Customer Enhancements
+### Customer Enhancements  
 * Default payment terms can now be assigned to customer records
 
 ### Invoice Enhancements
