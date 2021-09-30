@@ -1,3 +1,14 @@
+# Change Log – 09/28/2021 Release
+
+**ADDED.** Payment Advice can now be submitted to the SAP Digital Payments Add-on from PayFabric
+
+**ADDED.** Level 2 & 3 transaction data is now supported with the SAP Digital Payments Add-on
+
+**UPDATED.** Preauthorizations from the SAP Digital Payments Add-on will now use the Verify transaction type instead of a zero dollar authorization.
+
+**FIXED.** Bluefin Cardholder's data parsing to address First Name and Last Name order placement.
+
+
 # Change Log – 07/20/2021 Release
 
 **ADDED.** Add an authentication method for boarding api
