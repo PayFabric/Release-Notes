@@ -1,6 +1,4 @@
-# Change Log – 10/25/2021 Release
-
-**ADDED.** Support New PAX Device A60
+# Change Log – 11/3/2021 Release
 
 **ADDED.** Support Apple Pay
 
@@ -8,7 +6,7 @@
 
 **ADDED.** Support New PAX Device A60
 
-**ADDED.** Auto board with EVO NOW.
+**ADDED.** Support Auto board with EVO NOW.
 
 **ADDED.** Support Snap’s Tip amount on MRHPP.
 
