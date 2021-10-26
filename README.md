@@ -10,7 +10,7 @@
 
 **ADDED.** Support Snap’s Tip amount on MRHPP.
 
-**ADDED.** Support Partial Reversal, Tip Adjustment and Incremental Authorization for EVO transactions.
+**ADDED.** Support Partial Reversal and Incremental Authorization for EVO transactions.
 
 **ADDED.** Support Snap’s Multi-Capture function to capture a portion of an Authorization 
 
