@@ -1,4 +1,4 @@
-# Change Log – 11/3/2021 Release
+# Change Log – 11/11/2021 Release
 
 **ADDED.** Support Apple Pay
 
