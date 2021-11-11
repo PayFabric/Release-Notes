@@ -1,28 +1,26 @@
 # Change Log – 11/11/2021 Release
 
-**ADDED.** Support Apple Pay
+**ADDED.** Support Apple Pay - Merchants using PayFabric service can offer Apple Pay as a virtual wallet option during checkout process to their customers.
 
-**ADDED.** Support Google Pay
+**ADDED.** Support Google Pay - Merchants using PayFabric service can offer Google Pay as a virtual wallet option during checkout process to their customers.
 
-**ADDED.** Support New PAX Device A60
+**ADDED.** Support New EMV Devices - PayFabric added PAX A60, A80 and A920 as new supported EMV devices.
 
-**ADDED.** Support Auto board with EVO NOW.
+**ADDED.** Support Auto board with EVO NOW. - Adding support for automatic onboarding with EVO Onboarding API.
 
-**ADDED.** Support Snap’s Tip amount on MRHPP.
+**ADDED.** Support Snap’s Tip amount on MRHPP. - Adding tip amount support into PayFabric's mobile ready hosted payment page.
 
-**ADDED.** Support Partial Reversal and Incremental Authorization for EVO transactions.
+**ADDED.** Support Partial Reversal and Incremental Authorization for EVO connector transactions.
 
-**ADDED.** Support Snap’s Multi-Capture function to capture a portion of an Authorization 
+**ADDED.** Support EVO's Multi-Capture function to capture a portion of an Authorization transaction to support partial shipment.
 
-**UPDATED.** Upgrade Third party reference dll to latest version
+**UPDATED.** Enhance Partner Portal for PayFabric's integration partner.
 
-**UPDATED.** Enhance Partner Portal.
+**UPDATED.** Updated PayFabric API to support 'usebluefin' and'usedefaultwallet' as query string parameters.
 
-**UPDATED.** Support usebluefin and usedefaultwallet query string in SDK.
+**UPDATED.** Updated PayFabric login and access page UI to provide a modern look and feel.
 
-**UPDATED.** PayFabric access page UI refine.
-
-**REMOVED.** Cybersource SCMP Connector.
+**REMOVED.** Removed and retired the legacy Cybersource SCMP Connector.
 
 
 
