@@ -14,7 +14,7 @@
 
 **ADDED.** Support EVO's Multi-Capture function to capture a portion of an Authorization transaction to support partial shipment.
 
-**UPDATED.** Enhance Partner Portal for PayFabric's integration partner.
+**UPDATED.** Enhanced Partner Portal for PayFabric's integration partner.
 
 **UPDATED.** Updated PayFabric API to support 'usebluefin' and'usedefaultwallet' as query string parameters.
 
