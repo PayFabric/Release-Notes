@@ -22,7 +22,7 @@
 
 **UPDATED.** PayFabric access page UI refine.
 
-**DELETED.** Retire Cybersource Gateway.
+**REMOVED.** Cybersource SCMP Connector.
 
 
 
