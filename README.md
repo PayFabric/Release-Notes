@@ -1,3 +1,31 @@
+# Change Log – 11/3/2021 Release
+
+**ADDED.** Support Apple Pay
+
+**ADDED.** Support Google Pay
+
+**ADDED.** Support New PAX Device A60
+
+**ADDED.** Support Auto board with EVO NOW.
+
+**ADDED.** Support Snap’s Tip amount on MRHPP.
+
+**ADDED.** Support Partial Reversal and Incremental Authorization for EVO transactions.
+
+**ADDED.** Support Snap’s Multi-Capture function to capture a portion of an Authorization 
+
+**UPDATED.** Upgrade Third party reference dll to latest version
+
+**UPDATED.** Enhance Partner Portal.
+
+**UPDATED.** Support usebluefin and usedefaultwallet query string in SDK.
+
+**UPDATED.** PayFabric access page UI refine.
+
+**DELETED.** Retire Cybersource Gateway.
+
+
+
 # Change Log – 09/28/2021 Release
 
 **ADDED.** Payment Advice can now be submitted to the SAP Digital Payments Add-on from PayFabric
