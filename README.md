@@ -20,7 +20,7 @@
 
 **UPDATED.** Updated PayFabric login and access page UI to provide a modern look and feel.
 
-**REMOVED.** Removed and retired the legacy Cybersource SCMP Connector.
+**UPDATED.** Removed and retired the legacy Cybersource SCMP Connector.
 
 
 
