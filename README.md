@@ -394,9 +394,9 @@ NOTE: If the Customer ID is associated to multiple wallet records, each wallet r
 -	Incorrect cursor placement during wallet entry.
 -	Hold key down allows user to input more than the allowed number of digits per card type. 
 
-**FIXED.** Fixed CreatedOn date field for WalletLink API. -	Fixed the issue where CreatedOn date field does not have correct value when call ODATA query for WalletLink API. 
+**FIXED.** Fixed CreatedOn date field for Wallet Link API. -	Fixed the issue where CreatedOn date field does not have correct value when call ODATA query for Wallet Link API. 
 
-**FIXED.** Added ModifiedOn date field for WalletLink API. - Fixed the issue where the ModifiedOn date field was not included as part of the WalletLink API’s response. 
+**FIXED.** Added ModifiedOn date field for Wallet Link API. - Fixed the issue where the ModifiedOn date field was not included as part of the Wallet Link API’s response. 
 
 **FIXED.** Fixed CreatedOn date field for PayLink API. -	Fixed the issue where CreatedOn date field does not have correct value when call ODATA query for PayLink API. 
 
@@ -431,8 +431,8 @@ New search filter options:
 
 **ADDED.** Provide easy navigation between device & theme pages. Provide user an easier navigation to switch from device and theme pages.
 
-**ADDED.** Add new WalletLink GET APIs	GET /api/wallet/{WalletLinkID}: Query a WalletLink and its details.
-GET api/wallet/?$: Query WalletLink(s) based on query string data.
+**ADDED.** Add new Wallet Link GET APIs	GET /api/wallet/{WalletLinkID}: Query a WalletLink and its details.
+GET api/wallet/?$: Query Wallet Link(s) based on query string data.
 Available Data to Query On:
 * CustomerNumber: customer number specified at the time of creating a wallet link
 * CreatedOn: date the wallet link was created on
@@ -442,7 +442,7 @@ Available Data to Query On:
 * Device: device used at the time of creating a wallet link
 * CompletedOn: the date the wallet link was completed on
 
-**ADDED.** Enhancement to WalletLink CREATE API - Enhance existing WalletLink Create API by include the actual link into the response so 3rd party integrator does not need to compile and put the link together. 
+**ADDED.** Enhancement to Wallet Link CREATE API - Enhance existing Wallet Link Create API by include the actual link into the response so 3rd party integrator does not need to compile and put the link together. 
 
 **ADDED.** Enhancement to Wallet Report functionalities - Combine Wallet and Expired Card reports into a single report with the following:
 + Provide the user the ability to filter expired card with a given date range for expiration date
