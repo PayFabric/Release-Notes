@@ -1,3 +1,19 @@
+# Change Log – 1/13/2022 Release
+
+**ADDED.** Transaction Receipts Enhancement.
+
+**ADDED.** Snap* Automatic Failover Support
+
+**ADDED.** Sandbox Gateway Profile Default.
+
+**ADDED.** Support the functionality of the Snap AP DUPE timeout response, to gracefully recover from the majority of transaction timeouts.
+
+**UPDATED.** ACH Transaction Return Reports.
+
+**UPDATED.** Provide ability for partner to specify the PFR site name when invite/add/edit merchant with custom configuration which enabled Receivables service
+
+
+
 # Change Log – 11/11/2021 Release
 
 **ADDED.** Support Apple Pay - Merchants using PayFabric service can offer Apple Pay as a virtual wallet option during checkout process to their customers.
