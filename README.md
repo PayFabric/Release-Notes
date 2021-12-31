@@ -2,7 +2,7 @@
 
 **ADDED.** Transaction Receipts Enhancement.
 
-**ADDED.** Snap* Automatic Failover Support
+**ADDED.** Snap* Automatic Failover Support.
 
 **ADDED.** Sandbox Gateway Profile Default.
 
@@ -10,7 +10,7 @@
 
 **UPDATED.** ACH Transaction Return Reports.
 
-**UPDATED.** Provide ability for partner to specify the PFR site name when invite/add/edit merchant with custom configuration which enabled Receivables service
+**UPDATED.** Provide ability for partner to specify the PFR site name when invite/add/edit merchant with custom configuration which enabled Receivables service.
 
 
 
