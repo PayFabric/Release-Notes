@@ -1,4 +1,4 @@
-# Change Log – 1/24/2022 Release
+# Change Log – 1/27/2022 Release
 
 **ADDED.** Transaction Receipts Enhancement.
 
