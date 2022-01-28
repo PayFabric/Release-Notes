@@ -1,3 +1,15 @@
+# Change Log – 1/27/2022 Release
+
+**ADDED.** ACH Transaction Return Reports - Provide ability for PayFabric merchants to query and lookup ACH returns associated with all EVO ACH transactions using PayFabric transaction reports.
+
+**ADDED.** Sandbox Gateway Profile Default - Ability to support EVO Gateway Profile as the default for every new sandbox account.
+
+**UPDATED.** Enhanced PayFabric Transaction Receipts to provide specific receipt template based on PayFabric's device. The previous PayLink transaction receipt is now merged together with PayFabric's transaction receipt.
+
+**UPDATED.** Enhanced PayFabric EVO Connector to address the timeout on the backend connection.
+
+
+
 # Change Log – 11/11/2021 Release
 
 **ADDED.** Support Apple Pay - Merchants using PayFabric service can offer Apple Pay as a virtual wallet option during checkout process to their customers.
