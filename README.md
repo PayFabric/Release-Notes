@@ -1,16 +1,12 @@
 # Change Log – 1/27/2022 Release
 
-**ADDED.** Transaction Receipts Enhancement.
+**ADDED.** ACH Transaction Return Reports - Provide ability for PayFabric merchants to query and lookup ACH returns associated with all EVO ACH transactions using PayFabric transaction reports.
 
-**ADDED.** Snap* Automatic Failover Support.
+**ADDED.** Sandbox Gateway Profile Default - Ability to support EVO Gateway Profile as the default for every new sandbox account.
 
-**ADDED.** Sandbox Gateway Profile Default.
+**UPDATED.** Enhanced PayFabric Transaction Receipts to provide specific receipt template based on PayFabric's device. The previous PayLink transaction receipt is now merged together with PayFabric's transaction receipt.
 
-**ADDED.** Support the functionality of the Snap AP DUPE timeout response, to gracefully recover from the majority of transaction timeouts.
-
-**UPDATED.** ACH Transaction Return Reports.
-
-**UPDATED.** Provide ability for partner to specify the PFR site name when invite/add/edit merchant with custom configuration which enabled Receivables service.
+**UPDATED.** Enhanced PayFabric EVO Connector to address the timeout on the backend connection.
 
 
 
