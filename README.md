@@ -4,7 +4,9 @@
 
 **ADDED.** Preffered Timezone configuration 
 
-**UPDATED.** 
+**UPDATED.** Change the behavior of directing to the login page for unauthorized hosted page, it will show 'unauthorized' error message.
+
+**UPDATED.** Restrict gateway profile to EVO.
 
 # Change Log – 1/27/2022 Release
 
