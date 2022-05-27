@@ -2,7 +2,7 @@
 
 **ADDED.** EVO Gift Card Support
 
-**ADDED.** Preffered Timezone configuration 
+**ADDED.** Set Preffered Timezone
 
 **UPDATED.** Change the behavior of directing to the login page for unauthorized hosted page, it will show 'unauthorized' error message.
 
