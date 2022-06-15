@@ -1,3 +1,13 @@
+# Change Log – 6/13/2022 Release
+
+**ADDED.** EVO Gift Card Support
+
+**ADDED.** Set Preffered Timezone
+
+**UPDATED.** Change the behavior of directing to the login page for unauthorized hosted page, it will show 'unauthorized' error message.
+
+
+
 # Change Log – 1/27/2022 Release
 
 **ADDED.** ACH Transaction Return Reports - Provide ability for PayFabric merchants to query and lookup ACH returns associated with all EVO ACH transactions using PayFabric transaction reports.
