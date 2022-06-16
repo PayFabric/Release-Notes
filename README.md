@@ -2,7 +2,7 @@
 
 **ADDED.** EVO Gift Card Support - Provide merchant the ability to process gift card transaction in both card present and card-not-present scenario via EVO Gift program. This enables merchant to offer flexible payment method(s) to their end customers. 
 
-**ADDED.** Set Preferred Timezone - Provide merchant the flexibility to choose their preferred timezone on PayFabric portal. This will control their report view and have all the transaction reports to associate to their chosen timezone. NOTE: Please check with your software vendors integrating to PayFabric to ensure their software version(s) supports this change. 
+**ADDED.** Set Preferred Timezone - Provide merchant the flexibility to choose their preferred timezone on PayFabric portal. This will control their report view and have all the transaction reports associating to their chosen timezone. NOTE: Please check with your software vendors integrating to PayFabric to ensure their software version(s) supports this change. 
 
 **UPDATED.** Change the behavior of directing user to the login page for unauthorized hosted page, it will now display 'unauthorized' error message to user to improve the user experience.
 
