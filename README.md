@@ -1,4 +1,4 @@
-# Change Log – 12/13/2022 Release
+# Change Log – 1/16/2023 Release
 
 **ADDED.** EVO Fraud Support with PayFabric
 
