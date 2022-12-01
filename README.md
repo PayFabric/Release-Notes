@@ -81,8 +81,6 @@
 
 **ADDED.** Add ability to Process Manual Batch Close via API
 
-**ADDED.** Support additional field mappings for Cybersource 3DS
-
 **UPDATED.** Set maximum custom report limit to 20
 
 **UPDATED.** Reduce EVO Snap* Timeout From 100 to 37 Seconds
