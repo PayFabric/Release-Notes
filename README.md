@@ -1,8 +1,8 @@
 # Change Log – 1/16/2023 Release
 
-**ADDED.** EVO Fraud Support with PayFabric
+**ADDED.** Fraud Service Support with PayFabric
 
-**ADDED.** EVO Settlement and Reconciliation Report support
+**ADDED.** Settlement and Reconciliation Report support
 
 # Change Log – 6/13/2022 Release
 
