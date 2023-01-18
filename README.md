@@ -1,6 +1,6 @@
 # Change Log – 1/17/2023 Release
 
-**ADDED.** Settlement and Reconciliation Report support
+**ADDED.** Settlement and Reconciliation Report - Provides merchants and integration partners the ability to query settled transaction data and details via PayFabric API and directly from the PayFabric merchant portal. These reports will help merchants further with performing transaction reconciliation needs. 
 
 # Change Log – 6/13/2022 Release
 
