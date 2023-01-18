@@ -1,6 +1,4 @@
-# Change Log – 1/16/2023 Release
-
-**ADDED.** Fraud Service Support with PayFabric
+# Change Log – 1/17/2023 Release
 
 **ADDED.** Settlement and Reconciliation Report support
 
