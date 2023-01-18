@@ -1,3 +1,9 @@
+# Change Log – 1/16/2023 Release
+
+**ADDED.** Fraud Service Support with PayFabric
+
+**ADDED.** Settlement and Reconciliation Report support
+
 # Change Log – 6/13/2022 Release
 
 **ADDED.** EVO Gift Card Support - Provide merchants the ability to process gift card transaction in both card-present and card-not-present scenario via EVO Gift program. This enables merchants to offer flexible payment methods to their end customers. 
@@ -74,8 +80,6 @@
 **ADDED.** Advice Support for SAP DPA
 
 **ADDED.** Add ability to Process Manual Batch Close via API
-
-**ADDED.** Support additional field mappings for Cybersource 3DS
 
 **UPDATED.** Set maximum custom report limit to 20
 
