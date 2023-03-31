@@ -1,3 +1,20 @@
+# Change Log – 5/15/2023 Release
+
+**UPDATED.** Ignore signature for doing reference transaction for a EMV transaction.
+
+**ADDED.** Use DiamondCloud API for connection to PAX terminals.
+
+**ADDED.** Ability to Easily Distinguish between Sandbox vs Production PayFabric environments.
+
+**ADDED.** Allow merchant user to purge wallet entries in bulk.
+
+**ADDED.** Support Referenced Authorization & Sale at the API Level.
+
+**REMOVED.** Removal of 3DS 1.0 Support from PayFabric.
+
+**UPDATED.** Remove Duplicate Check logic error prompt from PayFabric wallet creation.
+
+
 # Change Log – 1/17/2023 Release
 
 **ADDED.** Settlement and Reconciliation Report - Provides merchants and integration partners the ability to query settled transaction data and details via PayFabric API and directly from the PayFabric merchant portal. These reports will help merchants further with performing transaction reconciliation needs. 
