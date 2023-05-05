@@ -2,6 +2,36 @@
 
 Guide: [https://www.nodus.com/PayFabric-Receivables-Release-Notes](https://www.nodus.com/PayFabric-Receivables-Release-Notes)  
 
+## 5/9/2023 Coming Soon
+
+### PayFabric Partner Enhancements
+
+* PayFabric Partners can now personalize the PayFabric Receivables experience by controlling which functionalities are displayed to users.
+* PayFabric Partners can now preconfigure default values for settings for faster initial deployment for new users.
+
+### Invoice Enhancements
+
+* A frequency interval is now available for Subscriptions to define a number of days or number of months between cycles.
+* A Payment Request can now be sent from the Invoice Editor before the Invoice is completed.
+* A new option to pay multiple invoices at the same time is available from the Invoice Report.
+
+### Payment Enhancements
+
+* A frequency interval is now available for AutoPay Templates to define a number of days or number of months between cycles.
+* A starting day of the week configuration option is available to specify the day of the week for AutoPay to start.
+* A new option is available from the Payment Report to send Payment Requests for multiple invoices.
+
+### Email Enhancements
+
+* New Payment Request email templates are available for requesting for payment from customers.
+
+### API Enhancements
+
+* New APIs are available to configure all the PayFabric Receivables settings.
+* The FrequencyInterval parameter is now available for the AutoPay and Subscription APIs.
+* A new Payment/Request POST API is available to trigger the generation of a Payment Request link and send the Payment Request email.
+* Invoice APIs now support the Status parameter to allow for the Invoice status to be updated by integrating applications
+
 ## 8/16/2022
 
 ### Customer Enhancements
