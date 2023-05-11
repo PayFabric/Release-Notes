@@ -2,7 +2,7 @@
 
 Guide: [https://www.nodus.com/PayFabric-Receivables-Release-Notes](https://www.nodus.com/PayFabric-Receivables-Release-Notes)  
 
-## 5/9/2023 Coming Soon
+## 5/9/2023
 
 ### PayFabric Partner Enhancements
 
