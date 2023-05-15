@@ -1,4 +1,4 @@
-# Change Log – 5/15/2023 Release
+# Change Log – 5/22/2023 Release
 
 **ADDED.** Allow merchant user to purge wallet entries in bulk.
 
@@ -10,7 +10,7 @@
 
 **UPDATED.** Removal of 3DS 1.0 Support from PayFabric.
 
-
+**ADDED.**  Support JavaScript SDK V2.
 
 # Change Log – 1/17/2023 Release
 
