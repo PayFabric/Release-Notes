@@ -1,3 +1,16 @@
+# Change Log – 5/30/2023 Release
+
+**ADDED.** Bulk Wallet Delete - Provide merchants the ability to remove the existing saved wallet records in bulk.
+
+**ADDED.** Referenced Authorization & Sale Transaction Support - Provide merchants the ability to perform referenced 'Sale' or 'Authorization' transaction against previous successful transaction on PayFabric without having to re-enter the credit card information. This is to cater the business use case for eCommerce businesses for backordered products or delayed shipment where the credit card was not saved on file.
+
+**ADDED.** Override Duplicate Wallet - Provide merchants the ability to override the existing wallet record with newly provided data in the case of duplicate entry. 
+
+**UPDATED.** Added the 'SANDBOX' into the top navigation banner for sandbox platform to help users easily identify between sandbox and production PayFabric environments.
+
+**UPDATED.** Updated the “Fail On CVV2 Mismatch” logic where it does not require CVV for alternative payment methods.
+
+
 # Change Log – 1/17/2023 Release
 
 **ADDED.** Settlement and Reconciliation Report - Provides merchants and integration partners the ability to query settled transaction data and details via PayFabric API and directly from the PayFabric merchant portal. These reports will help merchants further with performing transaction reconciliation needs. 
@@ -9,7 +22,6 @@
 **ADDED.** Set Preferred Timezone - Provide merchants the flexibility to choose their preferred timezone on PayFabric portal. This will control their transaction report view and have all the reports associated with their chosen timezone. NOTE: Please check with your software vendors integrating to PayFabric to ensure their software version(s) supports this change. 
 
 **UPDATED.** Change the behavior of directing user to the login page for unauthorized hosted page, it will now display 'unauthorized' error message to user to improve the user experience.
-
 
 
 # Change Log – 1/27/2022 Release
