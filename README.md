@@ -8,7 +8,7 @@
 
 **UPDATED.** Added the 'SANDBOX' into the top navigation banner for sandbox platform to help users easily identify between sandbox and production PayFabric environments.
 
-**UPDATED.** Updated the “Fail On CVV2 Mismatch” logic where it does not require CVV for alternative payment methods.
+**UPDATED.** Updated the “Fail On CVV2 Mismatch” logic for PayFabic SDK where it does not require CVV for alternative payment methods.
 
 
 # Change Log – 1/17/2023 Release
