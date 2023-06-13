@@ -1,3 +1,7 @@
+# Change Log – 7/3/2023 Release
+
+**ADDED.** Tax amount Auto-calculation - Provide merchants with L2/3 qualification by auto-calculate the tax amount for L2/3 based on the specified value under Level 2 Optional Defaults 'Tax Rate' field.
+
 # Change Log – 5/30/2023 Release
 
 **ADDED.** Bulk Wallet Delete - Provide merchants the ability to remove the existing saved wallet records in bulk.
