@@ -2,7 +2,7 @@
 
 **ADDED.** Bulk Wallet Delete - Provide merchants the ability to remove the existing saved wallet records in bulk.
 
-**ADDED.** Referenced Authorization & Sale Transaction Support - Enable merchants on PayFabric to conduct 'Sale' or 'Authorization' transactions using a previously successful transaction as a reference, eliminating the need to re-enter credit card details. This functionality specifically caters to eCommerce businesses that encounter backordered products or delayed shipments, wherein credit card information was not previously stored.
+**ADDED.** Referenced Authorization & Sale Transaction Support - Enable 3rd party integrators to conduct 'Sale' or 'Authorization' transactions using a previously successful transaction as a reference, eliminating the need to re-enter credit card details. This new functionality introduced to PayFabric API specifically caters to eCommerce businesses that encounter backordered products or delayed shipments, wherein credit card information was not previously stored.
 
 **ADDED.** Override Duplicate Wallet - Provide merchants the ability to override the existing wallet record with newly provided data in the case of duplicate entry. 
 
