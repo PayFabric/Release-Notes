@@ -1,4 +1,4 @@
-# Change Log – 7/3/2023 Release
+# Change Log – 7/5/2023 Release
 
 **ADDED.** Tax amount Auto-calculation - Provide merchants with L2/3 qualification by auto-calculate the tax amount for L2/3 based on the specified value under Level 2 Optional Defaults 'Tax Rate' field.
 
