@@ -1,12 +1,12 @@
 # Change Log - 11/8/2023 Release
 
-**ADDED.** Add UI responsive hosted wallet pages
+**ADDED.** Add UI responsive hosted wallet pages.
 
 **ADDED.** Provide the ability to override TrxInitiation Value during wallet creation via API and hosted wallet page.
 
-**ADDED.** Provide the ability to filter by Device ID, PF Gateway Profile, First Name, Last Name, and Last 4 digits of credit card on the Manage Transactions page and Retrieve transactions API.
+**ADDED.** Provide the ability to filter by Device ID, PF Gateway Profile, First Name, Last Name, and Last 4 digits of credit card on the Manage Transactions page and Retrieve Transactions API.
 
-**ADDED.** Add validation support for saving PF wallet
+**ADDED.** Add validation support for saving PF wallet.
 
 **UPDATED.** Make the cardholder's name optional during wallet creation and transaction processing.
 
