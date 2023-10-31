@@ -10,7 +10,7 @@
 
 **UPDATED.** Make the cardholder's name optional during wallet creation and transaction processing.
 
-**ADDED.** PayFabric Payment Javascript SDK V3, imbeded UI reponsive hosted wallet page.
+**ADDED.** PayFabric Payment Javascript SDK V3, embeded UI reponsive hosted wallet page.
 
 **UPDATED.** Add Payment Method option to custom report on PayFabric. This would allow our customers to be able to receive separate reports in which they can choose which payment method they want.
 
