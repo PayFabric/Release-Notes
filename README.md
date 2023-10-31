@@ -1,7 +1,5 @@
 # Change Log - 11/8/2023 Release
 
-**ADDED.** Add UI responsive hosted wallet pages.
-
 **ADDED.** Provide the ability to override TrxInitiation Value during wallet creation via API and hosted wallet page.
 
 **ADDED.** Provide the ability to filter by Device ID, PF Gateway Profile, First Name, Last Name, and Last 4 digits of credit card on the Manage Transactions page and Retrieve Transactions API.
@@ -10,7 +8,7 @@
 
 **UPDATED.** Make the cardholder's name optional during wallet creation and transaction processing.
 
-**ADDED.** PayFabric Payment Javascript SDK V3, embeded UI reponsive hosted wallet page.
+**ADDED.** PayFabric Payment Javascript SDK V3, embedded UI responsive hosted create/update wallet pages.
 
 **UPDATED.** Add Payment Method option to custom report on PayFabric. This would allow our customers to be able to receive separate reports in which they can choose which payment method they want.
 
