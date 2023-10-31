@@ -2,7 +2,7 @@
 
 **ADDED.** Provide the ability to override TrxInitiation Value during wallet creation via API and hosted wallet page.
 
-**ADDED.** Provide the ability to filter by Device ID, PF Gateway Profile, First Name, Last Name, and Last 4 digits of credit card on the Manage Transactions page and Retrieve Transactions API.
+**ADDED.** Provide the ability to filter by Device ID, PayFabric Gateway Profile, First Name, Last Name, and Last 4 digits of credit card on the Manage Transactions page and Retrieve Transactions API.
 
 **ADDED.** Add validation support for saving PF wallet.
 
