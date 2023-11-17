@@ -2,15 +2,19 @@
 
 **ADDED.** Provide the ability to override TrxInitiation Value during wallet creation via API and hosted wallet page.
 
-**ADDED.** Provide the ability to filter by Device ID, PayFabric Gateway Profile, First Name, Last Name, and Last 4 digits of credit card on the Manage Transactions page and Retrieve Transactions API.
+**ADDED.** Provide the ability to filter by Device ID, PayFabric Gateway Profile, First Name, and Last Name of credit card on the Manage Transactions page and Retrieve Transactions API.
 
-**ADDED.** Add validation support for saving PF wallet.
-
-**UPDATED.** Make the cardholder's name optional during wallet creation and transaction processing.
+**ADDED.** Add validation support for saving PayFabric wallet entries.
 
 **ADDED.** PayFabric Payment Javascript SDK V3, embedded UI responsive hosted create/update wallet pages.
 
-**UPDATED.** Add Payment Method option to custom report on PayFabric. This would allow our customers to be able to receive separate reports in which they can choose which payment method they want.
+**ADDED.** Add the ability to remove deactivated user(s) from the merchant's PayFabric account.
+
+**UPDATED.** Add Payment Method as the new filtering option to custom report on PayFabric. This enhancement enables merchants to generate transaction reports, specifying their preferred payment method inclusion for more customized tracking and analysis.
+
+**UPDATED.** Enable cardholder's name to be optional during wallet creation and transaction processing.
+
+**UPDATED.** Enable PayLink to control available payment methods for both payment link and wallet link based on gateway profile setup.
 
 # Change Log – 9/5/2023 Release
 
