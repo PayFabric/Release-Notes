@@ -1,4 +1,4 @@
-# Change Log - 11/14/2023 Release
+# Change Log - 11/16/2023 Release
 
 **ADDED.** Provide the ability to override TrxInitiation Value during wallet creation via API and hosted wallet page.
 
