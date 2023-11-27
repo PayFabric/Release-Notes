@@ -8,13 +8,13 @@
 
 **ADDED.** PayFabric Payment Javascript SDK V3, embedded UI responsive hosted create/update wallet pages.
 
-**ADDED.** Add the ability to remove deactivated user(s) from the merchant's PayFabric account.
+**ADDED.** Add the ability to remove the deactivated user(s) from the merchant's PayFabric account.
 
 **UPDATED.** Add Payment Method as the new filtering option to custom report on PayFabric. This enhancement enables merchants to generate transaction reports, specifying their preferred payment method inclusion for more customized tracking and analysis.
 
 **UPDATED.** Enable cardholder's name to be optional during wallet creation and transaction processing.
 
-**UPDATED.** Enable PayLink to control available payment methods for both payment link and wallet link based on gateway profile setup.
+**UPDATED.** Enable PayLink to control available payment methods for payment links based on gateway profile setup.
 
 # Change Log – 9/5/2023 Release
 
