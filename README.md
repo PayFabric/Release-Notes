@@ -16,6 +16,8 @@
 
 **UPDATED.** Enable PayLink to control available payment methods for payment links based on gateway profile setup.
 
+**UPDATED.** Update PayFabric Manage Transactions report to default to display 6-months worth of transaction data. Merchants can still search for transactions older than 6-months using the filter option. 
+
 # Change Log – 9/5/2023 Release
 
 **ADDED.** Supports Global Payments gateway.
