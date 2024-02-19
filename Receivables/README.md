@@ -2,6 +2,48 @@
 
 Guide: [https://www.nodus.com/PayFabric-Receivables-Release-Notes](https://www.nodus.com/PayFabric-Receivables-Release-Notes)  
 
+## 2/19/2024
+
+### Customer Portal Enhancements
+
+* New configuration options are available to easily adjust the colors of the customer portal.
+* New configuration options are available to easily adjust the size and alignment of the company logo displayed at the top of the customer portal.
+* A new customer summary page is available for a quick overview of the customer account, this new page acts as the default landing page for the customer portal when a user logs in.
+* The customer Wallet page has been completely redesigned to provide a more user friendly view of the saved payment methods in the customer’s wallet.
+* If a customer user is locked out of the customer portal due to failed password attempts, a new option is available to unlock the customer user account immediately.
+
+### Payment Enhancements
+
+* After accessing the customer portal using a secure link and completing a payment, an option to create an account for the customer portal can now be presented to the user. 
+* Payment Status will now be displayed as an additional column on the Payment report page
+
+### Email Enhancements
+
+* Invoice Reminder email templates with the option to be sent manually configured have been migrated to be labeled as Payment Request · Single Invoice email templates. This change was made to help distinguish Invoice Reminder email templates as emails sent on an automatic scheduled basis and Payment Requests as emails sent on an on demand basis.
+* A new Invoice Reminder · Multiple Invoice email is available to be sent to notify customers of multiple outstanding invoices in a single notification. This email can contain a single payment link to allow the recipient to pay multiple invoices on their account at once.
+* A new Payment Method Request email is available to be sent to request for a customer to provide their payment details without having to complete a payment.
+  * A new user permission is available to control if a user is able to send this email. Integration records created through this mechanism
+  * Completed Payment Methods Request can be included as integration records in the Integration report.
+* A new AutoPay Request email is available to be sent to request for a customer to activate AutoPay on their account without requiring the recipient to register for the customer portal.
+  * A new user permission is available to control if a user is able to send this email.
+* A new Payment Request · Prepayment email is available to be sent to request for a customer to make a payment that is not associated with any invoices.
+* A new AutoPay Activated email is available to notify customers when AutoPay has been activated on their account.
+* A new AutoPay Updated email is available to notify customers when their AutoPay terms have been updated on their account.
+* A new AutoPay Deactivated email is available to notify customers when AutoPay has been deactivated on their account.
+* A new AutoPay Upcoming Notification email is available to notify customers a few days before their automatic payment is planned to run.
+* New PrepaymentAmount and PaymentTotal variables are available on the Payment Request email templates for both single and multiple invoices to allow for these emails to support communicating a prepayment amount included with the Payment Request to the recipient.
+
+### API Enhancements
+
+* A new Company/Style PATCH API is available for adjusting the new settings relating to the company colors and logo. 
+* A new PaymentMethod/Request POST API is available for generating a Payment Method Request link and sending out the Payment Method Request Email.
+* A new AutoPay/Request POST API is available for generating an AutoPay Request link and sending out the AutoPay Request Email.
+* The Invoice GET API now returns the Invoice Status
+* The Settings/Payment/Preferences PATCH API has a new The CreateAccountAfterLink parameter to support the new related setting. 
+* The Settings/Integration PATCH API has a new PaymentMethodIntegration parameter to support the new related setting. 
+* The Payment/Request POST API supports additional parameters related to supporting prepayments and the Authorization transaction type.
+* New updates are available for Pass-through Authentication such as an internal permission role, the ability to hide the menu and additional landing pages for the customer Summary and User pages.
+
 ## 5/9/2023
 
 ### PayFabric Partner Enhancements
