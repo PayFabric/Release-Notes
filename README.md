@@ -6,7 +6,7 @@
 
 **ADDED.** Portico CAD Support.
 
-**ADDED.** Enable Merchant Level List of Accepted Domains on PayFabric.
+**ADDED.** Enable Merchant Level List of Accepted Domains on PayFabric. PayFabric will block the redirect if the passed-in-return-URL's domain is not whitelisted.
 
 **UPDATED.** Performance optimization.
 
