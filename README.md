@@ -1,3 +1,13 @@
+# Change Log - 2/29/2024 Release
+
+**ADDED.** Portico Tokenization Support.
+
+**ADDED.** Portico Gift Card Support.
+
+**ADDED.** Portico CAD Support.
+
+**UPDATE.** Performance optimization.
+
 # Change Log - 11/16/2023 Release
 
 **ADDED.** Provide the ability to override TrxInitiation Value during wallet creation via API and hosted wallet page.
