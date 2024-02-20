@@ -6,7 +6,7 @@
 
 **ADDED.** Portico CAD Support.
 
-**UPDATE.** Performance optimization.
+**UPDATED.** Performance optimization.
 
 # Change Log - 11/16/2023 Release
 
