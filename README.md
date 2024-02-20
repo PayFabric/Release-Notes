@@ -6,6 +6,8 @@
 
 **ADDED.** Portico CAD Support.
 
+**ADDED.** Enable Merchant Level List of Accepted Domains on PayFabric.
+
 **UPDATED.** Performance optimization.
 
 # Change Log - 11/16/2023 Release
