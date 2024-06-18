@@ -4,6 +4,8 @@
 
 **ADDED.** Add Prepaid Debit card type in PayFabric.
 
+**UPDATED.** Remove the ability of transactions processing with both surcharge amount and tip amount.
+
 **UPDATED.** Vulnerabilities Fix.
 
 # Change Log - 3/13/2024 Release
