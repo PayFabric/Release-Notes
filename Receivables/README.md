@@ -2,6 +2,29 @@
 
 Guide: [https://www.nodus.com/PayFabric-Receivables-Release-Notes](https://www.nodus.com/PayFabric-Receivables-Release-Notes)  
 
+## 8/13/2024
+
+### Customer Enhancements
+
+* A new configuration option is available to allow for the email address associated with a customer’s outstanding invoices to be automatically updated alongside updates to the customer’s email address.
+
+### Invoice Enhancements
+
+* A new Invoiced To parameter is available from the API to associate another customer with an invoice. This new value will appear on the Pay Invoices page when the associated customer has invoices assigned to different customers.
+
+### Email Enhancements
+
+* A new Integration Status email notification is available to be sent to internal users to inform them of updates relating to the integration of records with another system.
+
+### API Enhancements
+
+* New Reporting API Endpoints are available to retrieve data in bulk for Customers, Invoices, Subscriptions, Payments and Emails.
+* The Customer POST and PATCH APIs have a new parameter to control if updates to the email address should carry to the customer’s outstanding invoices.
+* Invoice APIs have been updated to support the new Invoiced Customer feature.
+* A Customer PATCH API is available for enabling updates to the customer ID.
+* An update to the Customer DELETE API is available to allow for full deletion of a customer record and all data associated with the customer.
+* New settings GET APIs are available for retrieving saved data relating to configured Email Templates and Invoice Types.
+
 ## 2/19/2024
 
 ### Customer Portal Enhancements
