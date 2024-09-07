@@ -1,3 +1,13 @@
+# Change Log - 7/3/2024 Release
+
+**ADDED.** Add additional advanced surcharge support to PayFabric via 3rd party service provider – InterPayments.
+
+**ADDED.** Add Prepaid Debit card type in PayFabric.
+
+**UPDATED.** Remove the ability of transactions processing with both surcharge amount and tip amount.
+
+**UPDATED.** Vulnerabilities Fix.
+
 # Change Log - 3/13/2024 Release
 
 **ADDED.** Portico Tokenization Support.
