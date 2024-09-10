@@ -1,4 +1,4 @@
-# Change Log - 7/3/2024 Release
+# Change Log - 9/9/2024 Release
 
 **ADDED.** Add Prepaid Debit card type in PayFabric.
 
