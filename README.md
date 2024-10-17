@@ -1,3 +1,15 @@
+# Change Log - 10/23/2024 Release
+
+**ADDED.** PayFabric authentication is being updated to align with the security policies from Global Payments.
+
+**UPDATED.** Change the invocation method with Nodus Framework assemble. 
+
+**UPDATED.** Change SMS provider. 
+
+**UPDATED.** Vulnerabilities Fix.
+
+**ADDED.** Integrate with Pendo to improve the user experience and monitor user engagement, track key metrics, and deliver targeted in-app messages and guides.
+
 # Change Log - 9/9/2024 Release
 
 **ADDED.** Add Prepaid Debit card type in PayFabric.
