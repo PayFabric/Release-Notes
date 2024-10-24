@@ -1,10 +1,22 @@
+# Change Log - 10/23/2024 Release
+
+**ADDED.** PayFabric authentication is being updated to require multi-factor authentication for all users. All users will need to validate their email address and configure multi-factor authentication after this release. 
+
+**UPDATED.** Change the invocation method with Nodus Framework assemble. 
+
+**UPDATED.** Change SMS provider. 
+
+**UPDATED.** Security Enhancements.
+
+**ADDED.** Integrate with Pendo to improve the user experience and monitor user engagement, track key metrics, and deliver targeted in-app messages and guides.
+
 # Change Log - 9/9/2024 Release
 
 **ADDED.** Add Prepaid Debit card type in PayFabric.
 
 **UPDATED.** Remove the ability of transactions processing with both surcharge amount and tip amount.
 
-**UPDATED.** Vulnerabilities Fix.
+**UPDATED.** Security Enhancements.
 
 # Change Log - 3/13/2024 Release
 
