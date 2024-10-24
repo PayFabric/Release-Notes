@@ -16,7 +16,7 @@
 
 **UPDATED.** Remove the ability of transactions processing with both surcharge amount and tip amount.
 
-**UPDATED.** Vulnerabilities Fix.
+**UPDATED.** Security Enhancements.
 
 # Change Log - 3/13/2024 Release
 
