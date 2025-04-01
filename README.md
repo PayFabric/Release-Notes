@@ -10,8 +10,6 @@
 
 **UPDATED.** Security Enhancements.
 
-**ADDED.** Integrate with Pendo to improve the user experience and monitor user engagement, track key metrics, and deliver targeted in-app messages and guides.
-
 ## 8/13/2024
 
 ### Customer Enhancements
