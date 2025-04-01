@@ -1,5 +1,17 @@
 # Release Notes
 
+## 1/29/2025
+
+### Integration Enhancements
+
+* The SAP Digital Payments integration now supports surcharging capabilities.
+
+## 11/21/2024
+
+### Integration Enhancements
+
+* Automated data synchronization between PayFabric and Sage Intacct is now available. Sage Intacct users can now configure their PayFabric organization to automatically synchronize Customers, Invoices and Payments from Sage Intacct with PayFabric.
+
 ## 10/23/2024
 
 **ADDED.** PayFabric authentication is being updated to require multi-factor authentication for all users. All users will need to validate their email address and configure multi-factor authentication after this release.
