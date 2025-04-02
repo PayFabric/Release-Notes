@@ -1,5 +1,32 @@
 # Release Notes
 
+## 4/2/2025
+
+### User Experience Enhancements
+
+* The PayFabric Receivables design style has been enhanced to provide an improved user experience. All PayFabric Receivables pages have been updated to utilize this new design style.
+* Many report pages have been updated with an improved experience for users to access their data. The filtering and sorting capabilities have been redesigned with a more intuitive experience by accessing a menu from the column headers. The following report pages have been updated:
+  * Customers
+  * Invoices
+  * Subscriptions
+  * Payments
+  * Emails
+  * Incoming Data
+  * Outgoing Data
+* The Customers, Invoices, Subscriptions and Payments report pages now support saving column filters and sorting preferences to a Saved View. Saved Views can be easily accessed from the menu to allow for quick access to data for future use.
+* A new user experience is available in PayFabric that consolidates the different PayFabric menus into a single experience. An option to utilize the New View is available from the top banner.
+* As an option for users that prefer the original PayFabric view, a Classic View option is available to return users to the original PayFabric view. This option is temporarily available while the New View is being updated to enhance the PayFabric user experience.
+
+### Integration Enhancements
+
+* Integration between PayFabric and BigCommerce is now available. BigCommerce users can configure PayFabric to route their BigCommerce transactions through PayFabric for payment processing.
+
+### Customer Portal Enhancements
+
+* The PayFabric Customer Portal design style has been enhanced to provide an improved user experience. All PayFabric Customer Portal pages have been updated to utilize this new design style.
+* The Pay Invoices and History pages have been updated with an improved experience for users to access their data. The filtering and sorting capabilities have been redesigned with a more intuitive experience by accessing a menu from the column headers.
+* The base URL of the PayFabric Customer Portal can now be updated by an organization user. Users changing this URL should take caution as all existing connections to the previous URL will no longer be accessible.
+
 ## 1/29/2025
 
 ### Integration Enhancements
