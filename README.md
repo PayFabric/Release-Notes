@@ -1,5 +1,15 @@
 # Release Notes
 
+## 10/14/2025
+
+* Vega Migration for User and Permission pages
+* Add new gateway GPAPI 
+* Multilingual Support
+    * Add setting in theme to enable/disable language detection
+    * Add setting in theme to enable/disable single failure message
+    * Add the ability to translate the labels/messages to French on MRHPP and MRHWP 
+* Security Fix
+
 ## 4/2/2025
 
 ### User Experience Enhancements
