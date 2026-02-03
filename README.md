@@ -1,172 +1,140 @@
 # Release Notes
 
-## 02/02/2026
+## 2/2/2026
 
-### 🏢 Organization Enhancements
-- The **New View** is now the default user interface for all new users.
-- New pages are available for **accepting the PayFabric User and Service Agreements**.
-- The **personal user account page** is now available from the menu on the New View, including self-service functionality such as password reset.
+### Organization Enhancements
 
-### 💳 Transaction Enhancements
-- **Additional Card Present Terminal support** is now available through the Global Payments Unified Cloud Integration platform.
-- A new connector, **Global Payments – Transaction API**, is available to support additional processing options for Global Payments ACH transactions.
+- The New View is now the default view for new users
+- New pages are available for accepting the PayFabric User and Service Agreements.
+- The personal user account page is now available from the menu on the New View. This page now offers the ability for users to reset their password as well.
 
-### ✉ Email & Communication Enhancements
-- New options are now available for the **Integration Status Notification**, including:
-  - Sending notifications *only* when an integration failure occurs.
-  - Increasing notification frequency to **every 4 hours**.
+### Transaction Enhancements
 
-### 🔗 Integration Enhancements
-- New **data field mapping options** are now available for integration connectors such as **Sage Intacct** and **QuickBooks**, allowing configuration of the PayFabric destination location for accounting system parameters.
+- Additional Card Present Terminal support is supported through the Global Payments Unified Cloud Integration platform integration.
+- A new connector, Global Payments - Transaction API, is available for additional processing options within Global Payments for ACH transactions.
 
-### 🛠 General Updates
-- Additional **security enhancements** and **system improvements** have been released.
+### Email & Communication Enhancements
+
+- Additional options are available for the Integration Status Notification such as the ability to only send the notification when an integration failure occurs and the ability to increase the frequency up to every 4 hours.
+
+### Integration Enhancements
+
+- Data field mapping options are now available for integration connectors such as Sage Intacct and Quickbooks to configure the PayFabric destination location for data parameters from the accounting system.
+
+### General Updates
+
+- Additional security enhancements and system improvements are available.
 
 ## 10/22/2025
 
-### 🏢 Organization Enhancements
-- The **Customer Portal Name** can now be updated to change the name and URL displayed in the Customer Portal.
+### Organization Enhancements
 
-### 👤 Customer Enhancements
-- A new **Phone field** is added to store the customer's phone number and is used as the primary contact for text notifications.
-- **Send AutoPay Request** now supports sending text reminders to prompt customers to set up recurring payments.
-- A **Payment Method Request** option is added to allow users to request a payment method via email or text.
+- The Customer Portal Name can now be updated to change the name and URL displayed in the customer portal.
 
-### 🧾 Invoice Enhancements
-- The limit for creating **Invoice Types** has been increased to **50**.
-- Added an **Individual Payments option** to classify invoices individually rather than grouped.
-- Invoice Table Display Settings now include an option to show or hide Invoice Type.
-- These improvements help identify payment restrictions more easily in the Customer Portal.
+### Customer Enhancements
 
-### 💳 Payment Enhancements
-- A new **Payment Method option in Currency Settings** allows configuring Payment Profiles by assigning Invoice Types.
-- These configurations apply to: Customer Portal Payments, Subscription Invoices, Payment Requests, AutoPay Payments.
-- Payment Reports now include a **User column** showing the individual who initiated each payment.
+- A new Phone field is added to store the customer’s phone number and is used as the primary contact for text notifications.
+- The Send AutoPay Request added the ability to send requests through text notification to remind customers to set up a recurring payment plan.
+- A Send Payment Method Request option is added to allow users to request a payment method via email or text.
 
-### ✉ Email & Communication Enhancements
-- **Text Notification Templates** can now be configured for Payment Requests, AutoPay Requests, and Payment Method Requests.
-- Users can insert a **URL in the email template editor**, automatically generating a QR code.
+### Invoice Enhancements
 
-### 🔗 Integration Enhancements
-- Integration with **QuickBooks Online** is now available, allowing syncing of customer, invoice, and payment data.
+- The limit for creating Invoice Types has been increased to 50.
+- An Individual Payments option is added to classify invoices of that type to be paid individually rather than grouped.
+- Invoice Table Display Settings now include an option to show or hide the Invoice Type column to help identify payment restrictions in the Customer Portal.
 
-### 🔌 API Updates
-- **Payments Transactions POST API** now includes an optional parameter to specify an Additional Payment Profile.
-- **Invoice Types GET API** added a new parameter to determine whether invoices with no due date appear on the payment dashboard.
-- **Invoice Type column** appears on the Pay Invoices page.
-- **Payment Method Create GET API** is available to retrieve all Payment Notification Settings.
-- **Payment Notification Templates GET API** is available to retrieve text notification templates.
-- **Payment Notification Templates POST API** is available to configure templates.
-- **AutoPay Request POST API** now supports parameters needed for generating text notifications.
-- **Customer GET API & POST API** add a new Phone field.
-- **Payment Method Request POST API** supports sending requests by phone number.
-- **Payment Method Request & AutoPay Request POST API** added parameters to send requests via phone number.
+### Payment Enhancements
 
-### 🛠 General Updates
-- Additional **security enhancements** and **system improvements** are included.
+- A new Payment section in Currency Settings is added to allow configuring Additional Payment Profiles by assigning Invoice Types to specific Payment Account Profiles that determine which invoices use each profile.
+  - These configurations apply automatically across Customer Portal payments, Subscription Invoices, Payment Requests, and AutoPay Payments.
+- Payment Reports now include a User column showing who initiated each payment.
+
+### Email & Communication Enhancements
+
+- Text notification templates can now be configured for Payment Requests, AutoPay Requests, and Payment Method Requests.
+- Users can insert a URL in the email template editor, which automatically generates a QR code for that URL.
+
+### Integration Enhancements
+
+- Integration with QuickBooks Online is now available, allowing QuickBooks Online users to route customer, invoice, and payment data PayFabric.
+
+### API Updates
+
+- Payment Transactions POST API now includes an optional parameter to specify an Additional Payment Profile.
+- Invoice Types GET API added a new parameter to determine whether invoices of that type can be paid alongside others.
+- Invoice Table Display PATCH API added a new parameter to control whether the Invoice Type column appears on the Pay Invoices page.
+- A new Payment Transactions GET API is available to retrieve all Payment Transaction Settings, including Tender Type settings and Additional Payment Profiles.
+- A new Text Notification Templates GET API is available to retrieve text notification templates.
+- A new Text Notification Templates POST API is available to configure text notification templates.
+- The Payment/Request POST API now supports additional parameters related to supporting text notifications and allowing partial payments when generating payment links.
+- The Customer GET API and POST API added a Phone field as new data to store the customer’s phone number.
+- The Payment Method Request and AutoPay Request POST API added additional parameters to send requests by a phone number.
+
+### General Updates
+
+- Additional security enhancements and system improvements are available .
 
 ## 10/14/2025
 
-### 🔧 New User Management Pages
-New pages are now available for managing Organization Users and configuring User Permission Roles from the new PayFabric UI.
+### User Management Enhancements
 
-### 🧩 Standard User Permission Roles
-All organizations now have access to an updated set of Standard User Permission Roles to streamline new user setup.
+- New pages are available for managing Organization Users and configuring User Permission Roles on PayFabric from the New View.
+- New Standard User Permission Roles are available to all Organizations for an improved experience in setting up new users. The Standard User Roles will automatically be updated with new functionality to be released in the future. The following Standard User Permission Roles are available:
+  - All Access - Full access to all features and functionality within the Organization
+  - Administrator - Administrative access to adjust settings and configurations
+  - Processor - Ability to take action within the Organization such as processing transactions
+  - Reader - Access to view general PayFabric pages
+- Previously created User Permission Roles are still available and will be referred to as Custom User Permission Roles in the new user interface.
 
-These roles will automatically receive future updates and enhancements.
+### Hosted Page Updates
 
-| Role | Description |
-|------|-------------|
-| All Access | Full access to all features and functionality within the organization. |
-| Administrator | Administrative access for adjusting settings and configurations. |
-| Processor | Ability to perform operational tasks such as processing transactions. |
-| Reader | Access to general PayFabric pages with read-only permissions. |
+- The Mobile Ready Hosted Payment Page and the Mobile Ready Hosted Wallet Page now support being translated into French.
+  - A new URL parameter can be provided to enable an integrator to translate the Hosted Page to match the surrounding application.
+  - A new Language Detection setting is available to allow the Hosted Page to be translated based on the configured language of the browser.
+- A new Single Error Message option is available in the Device Theme settings for customer facing applications where it may not be desired to display the actual transaction processing error message to the user. This Single Error Message also supports being translated when used on the Mobile Ready Hosted Payment Page.
 
-### 🗂 Custom User Permission Roles
-Previously created custom roles remain supported and will continue to appear as Custom User Permission Roles in the new UI.
+### General Updates
 
-### 🌐 French Language Support
-The following Hosted Pages now support translation into French:
-
-- Mobile Ready Hosted Payment Page
-- Mobile Ready Hosted Wallet Page
-
- New features:
-- URL Parameter for Forced Language Setting
-- Automatic Language Detection based on browser configuration
-
-### ⚠ New Single Error Message Option
-A new configuration option is available within Device Theme settings:
-- Hide detailed transaction error messages
-- Display a simplified general error
-- Supported on the Mobile Ready Hosted Payment Page
-
-### 🛠 General Updates
-- Minor improvements to stability, performance, and user experience.
+- Additional security enhancements and system improvements are available.
 
 ## 4/2/2025
 
-### 🎨 User Experience Enhancements
-- The **PayFabric Receivables design style** has been enhanced to provide an improved user experience.
-- All PayFabric Receivables pages have been updated to use this new design style.
+### User Experience Enhancements
 
-### 📊 Report Page Enhancements
-Many report pages have been redesigned with:
-- Improved data accessibility
-- Updated filtering and sorting capabilities
-- More intuitive menu-based column header interactions
+- The PayFabric Receivables design style has been enhanced to provide an improved user experience. All PayFabric Receivables pages have been updated to utilize this new design style.
+- Many report pages have been updated with an improved experience for users to access their data. The filtering and sorting capabilities have been redesigned with a more intuitive experience by accessing a menu from the column headers. The following report pages have been updated:
+  - Customers
+  - Invoices
+  - Subscriptions
+  - Payments
+  - Emails
+  - Incoming Data
+  - Outgoing Data
+- The Customers, Invoices, Subscriptions and Payments report pages now support saving column filters and sorting preferences to a Saved View. Saved Views can be easily accessed from the menu to allow for quick access to data for future use.
+- A new user experience is available in PayFabric that consolidates the different PayFabric menus into a single experience. An option to utilize the New View is available from the top banner.
+- As an option for users that prefer the original PayFabric view, a Classic View option is available to return users to the original PayFabric view. This option is temporarily available while the New View is being updated to enhance the PayFabric user experience.
 
-Updated report pages include:
-- Customers
-- Invoices
-- Subscriptions
-- Payments
-- Emails
-- Incoming Data
-- Outgoing Data
+### Integration Enhancements
 
-### 💾 Saved Views
-The Customers, Invoices, Subscriptions, and Payments report pages now support:
-- Saving column filters
-- Saving sorting preferences to a **Saved View**
-- Quick access via the menu for future use
+- Integration between PayFabric and BigCommerce is now available. BigCommerce users can configure PayFabric to route their BigCommerce transactions through PayFabric for payment processing.
 
-### 🧭 Updated Navigation Experience
-- A new unified experience consolidates different PayFabric menus into a single interface.
-- The **New View** is available from the top banner.
-- A **Classic View** option is available for users who prefer the original PayFabric layout.
-- The Classic View will remain available while the New View rollout continues.
+### Customer Portal Enhancements
 
-### 🔗 Integration Enhancements
-- **Integration between PayFabric and BigCommerce** is now available.
-- BigCommerce users can configure PayFabric to route BigCommerce transactions through PayFabric for payment processing.
-
-### 🖥 Customer Portal Enhancements
-- The **PayFabric Customer Portal design style** has been enhanced to improve user experience.
-- All PayFabric Customer Portal pages now use the new design.
-
-### 📄 Invoice & History Page Improvements
-- The Invoice and History pages have been updated with improved filtering and sorting capabilities.
-- Users can access their data more efficiently through updated menu options.
-
-### 🌐 Customer Portal URL Update
-- The **base URL of the PayFabric Customer Portal** can now be updated by the organization’s administrator.
-- Changing this URL should be done with caution, as existing connections to the previous URL will no longer be accessible.
+- The PayFabric Customer Portal design style has been enhanced to provide an improved user experience. All PayFabric Customer Portal pages have been updated to utilize this new design style.
+- The Pay Invoices and History pages have been updated with an improved experience for users to access their data. The filtering and sorting capabilities have been redesigned with a more intuitive experience by accessing a menu from the column headers.
+- The base URL of the PayFabric Customer Portal can now be updated by an organization user. Users changing this URL should take caution as all existing connections to the previous URL will no longer be accessible.
 
 ## 1/29/2025
 
-### 🔗 Integration Enhancements
-- The **SAP Digital Payments integration** now supports **surcharging capabilities**.
+### Integration Enhancements
+
+- The SAP Digital Payments integration now supports surcharging capabilities.
 
 ## 11/21/2024
 
-### 🔗 Integration Enhancements
-- **Automated data synchronization** between **PayFabric** and **Sage Intacct** is now available.
-- Sage Intacct users can now configure PayFabric to automatically synchronize:
-  - Customers
-  - Invoices
-  - Payments
-  from Sage Intacct into PayFabric.
+### Integration Enhancements
+
+- Automated data synchronization between PayFabric and Sage Intacct is now available. Sage Intacct users can now configure their PayFabric organization to automatically synchronize Customers, Invoices and Payments from Sage Intacct with PayFabric.
 
 ## 10/23/2024
 
@@ -182,24 +150,24 @@ The Customers, Invoices, Subscriptions, and Payments report pages now support:
 
 ### Customer Enhancements
 
-* A new configuration option is available to allow for the email address associated with a customer’s outstanding invoices to be automatically updated alongside updates to the customer’s email address.
+- A new configuration option is available to allow for the email address associated with a customer’s outstanding invoices to be automatically updated alongside updates to the customer’s email address.
 
 ### Invoice Enhancements
 
-* A new Invoiced To parameter is available from the API to associate another customer with an invoice. This new value will appear on the Pay Invoices page when the associated customer has invoices assigned to different customers.
+- A new Invoiced To parameter is available from the API to associate another customer with an invoice. This new value will appear on the Pay Invoices page when the associated customer has invoices assigned to different customers.
 
 ### Email Enhancements
 
-* A new Integration Status email notification is available to be sent to internal users to inform them of updates relating to the integration of records with another system.
+- A new Integration Status email notification is available to be sent to internal users to inform them of updates relating to the integration of records with another system.
 
 ### API Enhancements
 
-* New Reporting API Endpoints are available to retrieve data in bulk for Customers, Invoices, Subscriptions, Payments and Emails.
-* The Customer POST and PATCH APIs have a new parameter to control if updates to the email address should carry to the customer’s outstanding invoices.
-* Invoice APIs have been updated to support the new Invoiced Customer feature.
-* A Customer PATCH API is available for enabling updates to the customer ID.
-* An update to the Customer DELETE API is available to allow for full deletion of a customer record and all data associated with the customer.
-* New settings GET APIs are available for retrieving saved data relating to configured Email Templates and Invoice Types.
+- New Reporting API Endpoints are available to retrieve data in bulk for Customers, Invoices, Subscriptions, Payments and Emails.
+- The Customer POST and PATCH APIs have a new parameter to control if updates to the email address should carry to the customer’s outstanding invoices.
+- Invoice APIs have been updated to support the new Invoiced Customer feature.
+- A Customer PATCH API is available for enabling updates to the customer ID.
+- An update to the Customer DELETE API is available to allow for full deletion of a customer record and all data associated with the customer.
+- New settings GET APIs are available for retrieving saved data relating to configured Email Templates and Invoice Types.
 
 ## 9/9/2024
 
@@ -225,43 +193,43 @@ The Customers, Invoices, Subscriptions, and Payments report pages now support:
 
 ### Customer Portal Enhancements
 
-* New configuration options are available to easily adjust the colors of the customer portal.
-* New configuration options are available to easily adjust the size and alignment of the company logo displayed at the top of the customer portal.
-* A new customer summary page is available for a quick overview of the customer account, this new page acts as the default landing page for the customer portal when a user logs in.
-* The customer Wallet page has been completely redesigned to provide a more user-friendly view of the saved payment methods in the customer’s wallet.
-* If a customer user is locked out of the customer portal due to failed password attempts, a new option is available to unlock the customer user account immediately.
+- New configuration options are available to easily adjust the colors of the customer portal.
+- New configuration options are available to easily adjust the size and alignment of the company logo displayed at the top of the customer portal.
+- A new customer summary page is available for a quick overview of the customer account, this new page acts as the default landing page for the customer portal when a user logs in.
+- The customer Wallet page has been completely redesigned to provide a more user-friendly view of the saved payment methods in the customer’s wallet.
+- If a customer user is locked out of the customer portal due to failed password attempts, a new option is available to unlock the customer user account immediately.
 
 ### Payment Enhancements
 
-* After accessing the customer portal using a secure link and completing a payment, an option to create an account for the customer portal can now be presented to the user.
-* Payment Status will now be displayed as an additional column on the Payment report page.
+- After accessing the customer portal using a secure link and completing a payment, an option to create an account for the customer portal can now be presented to the user.
+- Payment Status will now be displayed as an additional column on the Payment report page.
 
 ### Email Enhancements
 
-* Invoice Reminder email templates with the option to be sent manually configured have been migrated to be labeled as Payment Request · Single Invoice email templates. This change was made to help distinguish Invoice Reminder email templates as emails sent on an automatic scheduled basis and Payment Requests as emails sent on an on-demand basis.
-* A new Invoice Reminder · Multiple Invoice email is available to be sent to notify customers of multiple outstanding invoices in a single notification. This email can contain a single payment link to allow the recipient to pay multiple invoices on their account at once.
-* A new Payment Method Request email is available to be sent to request for a customer to provide their payment details without having to complete a payment.
-  * A new user permission is available to control if a user is able to send this email. Integration records created through this mechanism.
-  * Completed Payment Methods Request can be included as integration records in the Integration report.
-* A new AutoPay Request email is available to be sent to request for a customer to activate AutoPay on their account without requiring the recipient to register for the customer portal.
-  * A new user permission is available to control if a user is able to send this email.
-* A new Payment Request · Prepayment email is available to be sent to request for a customer to make a payment that is not associated with any invoices.
-* A new AutoPay Activated email is available to notify customers when AutoPay has been activated on their account.
-* A new AutoPay Updated email is available to notify customers when their AutoPay terms have been updated on their account.
-* A new AutoPay Deactivated email is available to notify customers when AutoPay has been deactivated on their account.
-* A new AutoPay Upcoming Notification email is available to notify customers a few days before their automatic payment is planned to run.
-* New PrepaymentAmount and PaymentTotal variables are available on the Payment Request email templates for both single and multiple invoices to allow for these emails to support communicating a prepayment amount included with the Payment Request to the recipient.
+- Invoice Reminder email templates with the option to be sent manually configured have been migrated to be labeled as Payment Request · Single Invoice email templates. This change was made to help distinguish Invoice Reminder email templates as emails sent on an automatic scheduled basis and Payment Requests as emails sent on an on-demand basis.
+- A new Invoice Reminder · Multiple Invoice email is available to be sent to notify customers of multiple outstanding invoices in a single notification. This email can contain a single payment link to allow the recipient to pay multiple invoices on their account at once.
+- A new Payment Method Request email is available to be sent to request for a customer to provide their payment details without having to complete a payment.
+  - A new user permission is available to control if a user is able to send this email. Integration records created through this mechanism.
+  - Completed Payment Methods Request can be included as integration records in the Integration report.
+- A new AutoPay Request email is available to be sent to request for a customer to activate AutoPay on their account without requiring the recipient to register for the customer portal.
+  - A new user permission is available to control if a user is able to send this email.
+- A new Payment Request · Prepayment email is available to be sent to request for a customer to make a payment that is not associated with any invoices.
+- A new AutoPay Activated email is available to notify customers when AutoPay has been activated on their account.
+- A new AutoPay Updated email is available to notify customers when their AutoPay terms have been updated on their account.
+- A new AutoPay Deactivated email is available to notify customers when AutoPay has been deactivated on their account.
+- A new AutoPay Upcoming Notification email is available to notify customers a few days before their automatic payment is planned to run.
+- New PrepaymentAmount and PaymentTotal variables are available on the Payment Request email templates for both single and multiple invoices to allow for these emails to support communicating a prepayment amount included with the Payment Request to the recipient.
 
 ### API Enhancements
 
-* A new Company/Style PATCH API is available for adjusting the new settings relating to the company colors and logo.
-* A new PaymentMethod/Request POST API is available for generating a Payment Method Request link and sending out the Payment Method Request Email.
-* A new AutoPay/Request POST API is available for generating an AutoPay Request link and sending out the AutoPay Request Email.
-* The Invoice GET API now returns the Invoice Status.
-* The Settings/Payment/Preferences PATCH API has a new The CreateAccountAfterLink parameter to support the new related setting.
-* The Settings/Integration PATCH API has a new PaymentMethodIntegration parameter to support the new related setting.
-* The Payment/Request POST API supports additional parameters related to supporting prepayments and the Authorization transaction type.
-* New updates are available for Pass-through Authentication such as an internal permission role, the ability to hide the menu and additional landing pages for the customer Summary and User pages.
+- A new Company/Style PATCH API is available for adjusting the new settings relating to the company colors and logo.
+- A new PaymentMethod/Request POST API is available for generating a Payment Method Request link and sending out the Payment Method Request Email.
+- A new AutoPay/Request POST API is available for generating an AutoPay Request link and sending out the AutoPay Request Email.
+- The Invoice GET API now returns the Invoice Status.
+- The Settings/Payment/Preferences PATCH API has a new The CreateAccountAfterLink parameter to support the new related setting.
+- The Settings/Integration PATCH API has a new PaymentMethodIntegration parameter to support the new related setting.
+- The Payment/Request POST API supports additional parameters related to supporting prepayments and the Authorization transaction type.
+- New updates are available for Pass-through Authentication such as an internal permission role, the ability to hide the menu and additional landing pages for the customer Summary and User pages.
 
 ## 11/16/2023
 
@@ -307,31 +275,31 @@ The Customers, Invoices, Subscriptions, and Payments report pages now support:
 
 ### PayFabric Partner Enhancements
 
-* PayFabric Partners can now personalize the PayFabric Receivables experience by controlling which functionalities are displayed to users.
-* PayFabric Partners can now preconfigure default values for settings for faster initial deployment for new users.
+- PayFabric Partners can now personalize the PayFabric Receivables experience by controlling which functionalities are displayed to users.
+- PayFabric Partners can now preconfigure default values for settings for faster initial deployment for new users.
 
 ### Invoice Enhancements
 
-* A frequency interval is now available for Subscriptions to define a number of days or number of months between cycles.
-* A Payment Request can now be sent from the Invoice Editor before the Invoice is completed.
-* A new option to pay multiple invoices at the same time is available from the Invoice Report.
+- A frequency interval is now available for Subscriptions to define a number of days or number of months between cycles.
+- A Payment Request can now be sent from the Invoice Editor before the Invoice is completed.
+- A new option to pay multiple invoices at the same time is available from the Invoice Report.
 
 ### Payment Enhancements
 
-* A frequency interval is now available for AutoPay Templates to define a number of days or number of months between cycles.
-* A starting day of the week configuration option is available to specify the day of the week for AutoPay to start.
-* A new option is available from the Payment Report to send Payment Requests for multiple invoices.
+- A frequency interval is now available for AutoPay Templates to define a number of days or number of months between cycles.
+- A starting day of the week configuration option is available to specify the day of the week for AutoPay to start.
+- A new option is available from the Payment Report to send Payment Requests for multiple invoices.
 
 ### Email Enhancements
 
-* New Payment Request email templates are available for requesting for payment from customers.
+- New Payment Request email templates are available for requesting for payment from customers.
 
 ### API Enhancements
 
-* New APIs are available to configure all the PayFabric Receivables settings.
-* The FrequencyInterval parameter is now available for the AutoPay and Subscription APIs.
-* A new Payment/Request POST API is available to trigger the generation of a Payment Request link and send the Payment Request email.
-* Invoice APIs now support the Status parameter to allow for the Invoice status to be updated by integrating applications
+- New APIs are available to configure all the PayFabric Receivables settings.
+- The FrequencyInterval parameter is now available for the AutoPay and Subscription APIs.
+- A new Payment/Request POST API is available to trigger the generation of a Payment Request link and send the Payment Request email.
+- Invoice APIs now support the Status parameter to allow for the Invoice status to be updated by integrating applications
 
 ## 1/17/2023
 
@@ -341,41 +309,41 @@ The Customers, Invoices, Subscriptions, and Payments report pages now support:
 
 ### Customer Enhancements
 
-* Customers can now be marked as tax exempt and a tax exempt number can be assigned to the customer.
-* The data on the Customer Report can now be exported to an Excel spreadsheet.
+- Customers can now be marked as tax exempt and a tax exempt number can be assigned to the customer.
+- The data on the Customer Report can now be exported to an Excel spreadsheet.
 
 ### Invoice Enhancements
 
-* The data on the Invoice Report can now be exported to an Excel spreadsheet.
-* Taxes can now be configured for automatic tax calculation on invoices.
-* Items can now be marked as tax exempt.
-* Subscription invoice plans can now be created to automatically have invoices generated on a scheduled basis.
-* A payment method can be assigned to a subscription plan to allow for automatic payments to be processed when the subscription invoice is generated.
+- The data on the Invoice Report can now be exported to an Excel spreadsheet.
+- Taxes can now be configured for automatic tax calculation on invoices.
+- Items can now be marked as tax exempt.
+- Subscription invoice plans can now be created to automatically have invoices generated on a scheduled basis.
+- A payment method can be assigned to a subscription plan to allow for automatic payments to be processed when the subscription invoice is generated.
 
 ### Payment Enhancements
 
-* New payment methods of Google Pay, PayPal and Apple Pay are now supported for customer payments.
-* A payment can now be initiated from the Invoice Report by clicking an applicable invoice record
-* A payment can now be initiated from the Payment Report.
-* The data on the Payment Report can now be exported to an Excel spreadsheet.
-* Payments can now be processed directly on new invoices from PayFabric Receivables.
-* A transaction associated to a payment record can now be reversed.
+- New payment methods of Google Pay, PayPal and Apple Pay are now supported for customer payments.
+- A payment can now be initiated from the Invoice Report by clicking an applicable invoice record
+- A payment can now be initiated from the Payment Report.
+- The data on the Payment Report can now be exported to an Excel spreadsheet.
+- Payments can now be processed directly on new invoices from PayFabric Receivables.
+- A transaction associated to a payment record can now be reversed.
 
 ### Data Import Enhancements
 
-* The user experience for selecting a template and downloading sample templates has been enhanced.
-* Subscription & Tax data types are now available for import.
-* Commonly associated data types are now paired to be selected together such as Invoices with Invoice Items and Payments with Payment Applications.
+- The user experience for selecting a template and downloading sample templates has been enhanced.
+- Subscription & Tax data types are now available for import.
+- Commonly associated data types are now paired to be selected together such as Invoices with Invoice Items and Payments with Payment Applications.
 
 ### Email Enhancements
 
-* New versions of the New Invoice Notification email templates are available for invoices that have been paid and partially paid before they are completed and made available to customers.
-* A new email template is available to be automatically sent when a payment associated to a scheduled subscription invoice fails to be approved.
+- New versions of the New Invoice Notification email templates are available for invoices that have been paid and partially paid before they are completed and made available to customers.
+- A new email template is available to be automatically sent when a payment associated to a scheduled subscription invoice fails to be approved.
 
 ### API Enhancements
 
-* New GET and POST APIs are available for Taxes and Subscriptions
-* Customer & Invoice APIs have been updated to support additional tax related parameters.
+- New GET and POST APIs are available for Taxes and Subscriptions
+- Customer & Invoice APIs have been updated to support additional tax related parameters.
 
 ## 6/13/2022
 
@@ -463,31 +431,31 @@ Video: [https://www.youtube.com/watch?v=dk1pwSeCNGs](https://www.youtube.com/wat
 
 ### Customer Enhancements
 
-* Default payment terms can now be assigned to customer records
+- Default payment terms can now be assigned to customer records
 
 ### Invoice Enhancements
 
-* When creating an invoice, payment terms have been enhanced to automatically calculate the Invoice Due Date and provide discount options.
-* A new option is available to add an approval step before an invoice is completed and sent to customers.
+- When creating an invoice, payment terms have been enhanced to automatically calculate the Invoice Due Date and provide discount options.
+- A new option is available to add an approval step before an invoice is completed and sent to customers.
 
 ### Payment Enhancements
 
-* Available Payment Terms Discounts will not automatically be applied to payments when applicable
-* A customer's available credit balance can now be applied during a payment. During the payment process, a user can select which available credits should be applied to invoices.
-* A new e-mail template is available when only a credit is applied during a payment without a new transaction.
-* A customer's available credit balance can now be configured automatically be applied during recurring payments
-* When a user attempts to leave a payment, they will now be prompted if they want to leave the payment screen.
-* Companies processing transactions with EVO Payments can now add a processing surcharge to credit card transactions processed on PayFabric Receivables. With surcharging enabled, an additional amount will automatically be added to the payment if the user is paying by credit card. Before enabling credit card surcharging, please make sure to consider the surcharging rules and regulations to determine if credit card surcharging is a good fit for your business.
-* For internal users, a new option to simply record an already accepted payment without processing is now available.
-* The payment receipt page has been updated with a new style. Also, download and e-mail forwarding options are now available directly on the payment receipt.
-* The historical payment details page has also been updated with a new style
-* The Notes field can now be included on the Payment confirmation receipt.
+- Available Payment Terms Discounts will not automatically be applied to payments when applicable
+- A customer's available credit balance can now be applied during a payment. During the payment process, a user can select which available credits should be applied to invoices.
+- A new e-mail template is available when only a credit is applied during a payment without a new transaction.
+- A customer's available credit balance can now be configured automatically be applied during recurring payments
+- When a user attempts to leave a payment, they will now be prompted if they want to leave the payment screen.
+- Companies processing transactions with EVO Payments can now add a processing surcharge to credit card transactions processed on PayFabric Receivables. With surcharging enabled, an additional amount will automatically be added to the payment if the user is paying by credit card. Before enabling credit card surcharging, please make sure to consider the surcharging rules and regulations to determine if credit card surcharging is a good fit for your business.
+- For internal users, a new option to simply record an already accepted payment without processing is now available.
+- The payment receipt page has been updated with a new style. Also, download and e-mail forwarding options are now available directly on the payment receipt.
+- The historical payment details page has also been updated with a new style
+- The Notes field can now be included on the Payment confirmation receipt.
 
 ### Integration Enhancements
 
-* New record types are now available to be integrated with other systems. New Customer, Invoice, Application and Surcharges are all available to be integrated from the API.
-* A new integration details page showing more information about the history of the integration record is now available.
-* The exported report on the integration page has now been enhanced to include the additional record types and more detail for integrated payments.
+- New record types are now available to be integrated with other systems. New Customer, Invoice, Application and Surcharges are all available to be integrated from the API.
+- A new integration details page showing more information about the history of the integration record is now available.
+- The exported report on the integration page has now been enhanced to include the additional record types and more detail for integrated payments.
 
 ## 04/19/2021
 
@@ -519,52 +487,52 @@ Video: [https://www.youtube.com/watch?v=r3DqgNq72Tw](https://www.youtube.com/wat
 
 ### Dashboard
 
-* A new dashboard page is available when accessing PayFabric Receivables. This page will display a high level overview of the company's Receivables status.
+- A new dashboard page is available when accessing PayFabric Receivables. This page will display a high level overview of the company's Receivables status.
 
 ### Customer Enhancements
 
-* A new Customer Editor interface is now available to create & edit customer records and customer address information.
-* The Customer Report page has received the following updates:
-  * A button has been added create a new customer record.
-  * Clicking a customer record will now display an Edit option to modify the customer record.
-  * New Columns have been added to show if the customer is subscribed to AutoPay and the registered users of the Customer Portal
-* A new Customer Management Settings page is available to control access to the Customer Editor for all users and additional settings related to the customer editor.
-* Create and Edit Customer user permissions are now available to control which users can Create or Edit customer records.
+- A new Customer Editor interface is now available to create & edit customer records and customer address information.
+- The Customer Report page has received the following updates:
+  - A button has been added create a new customer record.
+  - Clicking a customer record will now display an Edit option to modify the customer record.
+  - New Columns have been added to show if the customer is subscribed to AutoPay and the registered users of the Customer Portal
+- A new Customer Management Settings page is available to control access to the Customer Editor for all users and additional settings related to the customer editor.
+- Create and Edit Customer user permissions are now available to control which users can Create or Edit customer records.
 
 ### Invoice Enhancements
 
-* A new Invoice Editor interface is available to create invoice records with item detail.
-* A new Invoice Management Settings page is available to control access to the Invoice Editor for all users and additional settings related to the Invoice Editor.
-* A Create Invoice user permission is now available to control which users can create invoice records.
-* The Invoice Report has received the following updates
-  * A button has been added to allow for creating a new invoice record
-  * New columns for Status and E-mail have been added
-  * The default filter on the page is now based on the status column
-  * The customer ID column can now be clicked and functions the same as clicking a customer record on the Customer Report
-  * Clicking an Invoice ID now presents a menu with available options for working with the invoice.
-* Invoice Types are now available to classify invoices into groups
-  * A new Invoice Types settings page is available for creating and editing Invoice Types.
-  * The New Invoice Notification E-mail can now be restricted to only be sent for certain Invoice Types
-  * Automated Invoice Reminder E-mails can now be restricted to only be sent for certain Invoice Types
-  * AutoPay Templates can be configured to only pay invoices of certain Invoice Types
-* Multiple Invoice Templates can now be created to be assigned to different Invoice Types.
-* New variables for Item Markdown and Item Comment are now available for the Invoice Template
-* Each Invoice can now be assigned primary e-mail and copy e-mail addresses to control the recipients of the e-mail notifications regarding an individual invoice.
-* A New Item Editor interface is available to create items to be used on invoices.
+- A new Invoice Editor interface is available to create invoice records with item detail.
+- A new Invoice Management Settings page is available to control access to the Invoice Editor for all users and additional settings related to the Invoice Editor.
+- A Create Invoice user permission is now available to control which users can create invoice records.
+- The Invoice Report has received the following updates
+  - A button has been added to allow for creating a new invoice record
+  - New columns for Status and E-mail have been added
+  - The default filter on the page is now based on the status column
+  - The customer ID column can now be clicked and functions the same as clicking a customer record on the Customer Report
+  - Clicking an Invoice ID now presents a menu with available options for working with the invoice.
+- Invoice Types are now available to classify invoices into groups
+  - A new Invoice Types settings page is available for creating and editing Invoice Types.
+  - The New Invoice Notification E-mail can now be restricted to only be sent for certain Invoice Types
+  - Automated Invoice Reminder E-mails can now be restricted to only be sent for certain Invoice Types
+  - AutoPay Templates can be configured to only pay invoices of certain Invoice Types
+- Multiple Invoice Templates can now be created to be assigned to different Invoice Types.
+- New variables for Item Markdown and Item Comment are now available for the Invoice Template
+- Each Invoice can now be assigned primary e-mail and copy e-mail addresses to control the recipients of the e-mail notifications regarding an individual invoice.
+- A New Item Editor interface is available to create items to be used on invoices.
 
 ### Data Import
 
-* Items can now be created in bulk with the new Item import option
-* Customers can now be registered for AutoPay in bulk with the new AutoPay import option
-* Email and Copy Email fields are now available when importing Invoices.
-* An Item Comment field is now available when importing Invoice Items.
+- Items can now be created in bulk with the new Item import option
+- Customers can now be registered for AutoPay in bulk with the new AutoPay import option
+- Email and Copy Email fields are now available when importing Invoices.
+- An Item Comment field is now available when importing Invoice Items.
 
 ### API
 
-* All Invoice APIs have been updated to include the Email, CopyEmail and Item Comment parameters
-* Item GET and POST APIs are now available for retrieving and pushing item detail to PayFabric Receivables.
-* All AutoPay APIs have been updated to include the Invoice Type parameter
-* Customer POST API will now update the Name value with the CustomerID if the Name is blank or null
+- All Invoice APIs have been updated to include the Email, CopyEmail and Item Comment parameters
+- Item GET and POST APIs are now available for retrieving and pushing item detail to PayFabric Receivables.
+- All AutoPay APIs have been updated to include the Invoice Type parameter
+- Customer POST API will now update the Name value with the CustomerID if the Name is blank or null
 
 ## 12/09/2020
 
@@ -629,33 +597,33 @@ Video: [https://www.youtube.com/watch?v=SuyJzXPJ2Yc](https://www.youtube.com/wat
 
 ### User Experience Enhancements
 
-* The experience of accessing customer data has been improved to focus on easier transition between managing customer accounts.  
-* The settings have been reorganized for easier navigation.  
+- The experience of accessing customer data has been improved to focus on easier transition between managing customer accounts.  
+- The settings have been reorganized for easier navigation.  
 
 ### Customer Portal User Management
 
-* Customer portal users can now be invited to sign up for the customer portal  
-* Multiple users can now be created for a single customer account  
-* Password reset requests can now be initiated from within the portal  
-* Customer Portal Users can be uploaded in bulk using the Data Import utility.  
+- Customer portal users can now be invited to sign up for the customer portal  
+- Multiple users can now be created for a single customer account  
+- Password reset requests can now be initiated from within the portal  
+- Customer Portal Users can be uploaded in bulk using the Data Import utility.  
 
 ### User Permissions
 
-* Access permissions are now available to assign internal users have access to PayFabric Receivables functionality.  
-* Permission groups are also available to be assigned to users of the customer portal  
+- Access permissions are now available to assign internal users have access to PayFabric Receivables functionality.  
+- Permission groups are also available to be assigned to users of the customer portal  
 
 ### Invoice PDF Files
 
-* A PDF file can now downloaded when viewing an invoice  
-* A PDF file can now be uploaded using the Receivables API to be presented instead of the generated invoice template.  
+- A PDF file can now downloaded when viewing an invoice  
+- A PDF file can now be uploaded using the Receivables API to be presented instead of the generated invoice template.  
 
 ### New Transaction Fields
 
-* Additional fields Customer Tax Exempt Number, Customer Company Name, and Item Commodity Code are available from the PayFabric Receivables API to be sent during payment processing  
+- Additional fields Customer Tax Exempt Number, Customer Company Name, and Item Commodity Code are available from the PayFabric Receivables API to be sent during payment processing  
 
 ### Pass-Through Authentication Enhancements
 
-* Additional parameters are available for Pass-Through Authentication to create a more seamless experience for users being passed into the PayFabric Receivables customer portal from another application.  
+- Additional parameters are available for Pass-Through Authentication to create a more seamless experience for users being passed into the PayFabric Receivables customer portal from another application.  
 
 ## 6/16/2020
 
@@ -679,55 +647,55 @@ Video: [http://www.youtube.com/watch?v=V7jTXq3QQOc](http://www.youtube.com/watch
 
 ### E-mail Enhancements
 
-* The e-mail template setup process has been completely redesigned to improve the e-mail template setup experience for users.
-* All of the default e-mail templates have a new updated design that is optimized for display on mobile devices.
-  * Customers with existing configured e-mail templates can utilize the new templates by clicking the reset button in the e-mail template editor.
-* New variables are available for the large company logo, small company logo and company e-mail.
+- The e-mail template setup process has been completely redesigned to improve the e-mail template setup experience for users.
+- All of the default e-mail templates have a new updated design that is optimized for display on mobile devices.
+  - Customers with existing configured e-mail templates can utilize the new templates by clicking the reset button in the e-mail template editor.
+- New variables are available for the large company logo, small company logo and company e-mail.
 
 ### Invoice Reminder
 
-* A new e-mail type is available to allow for a reminder e-mail to be sent for outstanding invoices.
-* This e-mail can be manually sent from the Invoice report page to one or multiple recipients.
-* This e-mail can also be scheduled to be automatically sent based on the age of the invoice. Reminders can be scheduled before, on or after the invoice due date and each reminder can be configured to have different messaging.
+- A new e-mail type is available to allow for a reminder e-mail to be sent for outstanding invoices.
+- This e-mail can be manually sent from the Invoice report page to one or multiple recipients.
+- This e-mail can also be scheduled to be automatically sent based on the age of the invoice. Reminders can be scheduled before, on or after the invoice due date and each reminder can be configured to have different messaging.
 
 ### PDF File Attachments
 
-* On e-mail templates such as the New Invoice Notification and the Invoice Reminder, an option is available to automatically attach a PDF version of the invoice to the e-mail.
+- On e-mail templates such as the New Invoice Notification and the Invoice Reminder, an option is available to automatically attach a PDF version of the invoice to the e-mail.
 
 ### E-mail Report
 
-* A new page is available to show all e-mails sent out from PayFabric Receivables. Users can view the details of each individual e-mail and also resend previously sent e-mails.
+- A new page is available to show all e-mails sent out from PayFabric Receivables. Users can view the details of each individual e-mail and also resend previously sent e-mails.
 
 ### Pass-Through Authentication Improvements
 
-* A new configuration option is available for pass-through authentication. The new Originating Portal URL option will redirect any users who reach the Customer Portal login page to another webpage such as the login page for the integrating application.
+- A new configuration option is available for pass-through authentication. The new Originating Portal URL option will redirect any users who reach the Customer Portal login page to another webpage such as the login page for the integrating application.
 
 ### Data Import Updates
 
-* A sample of the expected spreadsheet file with headers can be downloaded for any Data Import template.
-* Data import templates can now be deleted
+- A sample of the expected spreadsheet file with headers can be downloaded for any Data Import template.
+- Data import templates can now be deleted
 
 ### Delete Invoices
 
-* Invoices can now be deleted from the invoice report page individually and in bulk.
+- Invoices can now be deleted from the invoice report page individually and in bulk.
 
 ### Functional Currency Setup Option
 
-* A new setting is available to allow the functional currency to be changed for the organization.
+- A new setting is available to allow the functional currency to be changed for the organization.
 
 ### API Help
 
-* A new API help page is now available to make it easier for developers to work with the Receivables API by providing interactive tests and sample data. [https://sandbox.payfabric.com/receivables/apihelp](https://sandbox.payfabric.com/receivables/apihelp)
+- A new API help page is now available to make it easier for developers to work with the Receivables API by providing interactive tests and sample data. [https://sandbox.payfabric.com/receivables/apihelp](https://sandbox.payfabric.com/receivables/apihelp)
 
 ## 5/11/2020
 
 **UPDATED.** Enhance Level 2 and Level 3 Support with the following changes:
 
-* Update User Interface to improve user experience for Level 2/3 Field Defaults on Modern design.
-* Update Form Settings for Virtual Terminal’s Web Entry to provide merchant flexibility on field display options during transaction processing.
-* Added BIN Range Validation option for Level 2 and 3 Support.
-* Providing portal virtual terminal users the ability to lookup line item data (Level 3) using uploaded products/items during transaction processing.
-* Add ability to upload products/items to be used during transaction processing on Virtual Terminal.
+- Update User Interface to improve user experience for Level 2/3 Field Defaults on Modern design.
+- Update Form Settings for Virtual Terminal’s Web Entry to provide merchant flexibility on field display options during transaction processing.
+- Added BIN Range Validation option for Level 2 and 3 Support.
+- Providing portal virtual terminal users the ability to lookup line item data (Level 3) using uploaded products/items during transaction processing.
+- Add ability to upload products/items to be used during transaction processing on Virtual Terminal.
 
 **ADDED.** Enhancement to PayFabric to extend the support for Visa’s credential-on-file (COF) mandate for both Paymentech and Cybersource gateways.
 
@@ -753,12 +721,12 @@ Video: [http://www.youtube.com/watch?v=V7jTXq3QQOc](http://www.youtube.com/watch
 
 ### AutoPay
 
-* Customer's can now be registered for automatic recurring payments. Multiple frequency and payment amount options are available.
+- Customer's can now be registered for automatic recurring payments. Multiple frequency and payment amount options are available.
 
 ### AutoPay Templates
 
-* The organization can specify the settings for how automatic payments should be processed based on the business preferences. Multiple templates can be created to provide different AutoPay options to customers.
+- The organization can specify the settings for how automatic payments should be processed based on the business preferences. Multiple templates can be created to provide different AutoPay options to customers.
 
 ### AutoPay E-mail Templates
 
-* New e-mail templates are available to be sent to customers when an AutoPay payment is approved or fails to be processed.
+- New e-mail templates are available to be sent to customers when an AutoPay payment is approved or fails to be processed.
