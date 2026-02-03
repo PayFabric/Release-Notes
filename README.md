@@ -1,53 +1,187 @@
 # Release Notes
 
+## 02/02/2026
+
+## 🏢 Organization Enhancements
+- The **New View** is now the default user interface for all new users.
+- New pages are available for **accepting the PayFabric User and Service Agreements**.
+- The **personal user account page** is now available from the menu on the New View, including self-service functionality such as password reset.
+
+---
+
+## 💳 Transaction Enhancements
+- **Additional Card Present Terminal support** is now available through the Global Payments Unified Cloud Integration platform.
+- A new connector, **Global Payments – Transaction API**, is available to support additional processing options for Global Payments ACH transactions.
+
+---
+
+## ✉ Email & Communication Enhancements
+- New options are now available for the **Integration Status Notification**, including:
+  - Sending notifications *only* when an integration failure occurs.
+  - Increasing notification frequency to **every 4 hours**.
+
+---
+
+## 🔗 Integration Enhancements
+- New **data field mapping options** are now available for integration connectors such as **Sage Intacct** and **QuickBooks**, allowing configuration of the PayFabric destination location for accounting system parameters.
+
+---
+
+## 🛠 General Updates
+- Additional **security enhancements** and **system improvements** have been released.
+
+## 10/22/2025
+
+## 🏢 Organization Enhancements
+- The **Customer Portal Name** can now be updated to change the name and URL displayed in the Customer Portal.
+
+## 👤 Customer Enhancements
+- A new **Phone field** is added to store the customer's phone number and is used as the primary contact for text notifications.
+- **Send AutoPay Request** now supports sending text reminders to prompt customers to set up recurring payments.
+- A **Payment Method Request** option is added to allow users to request a payment method via email or text.
+
+## 🧾 Invoice Enhancements
+- The limit for creating **Invoice Types** has been increased to **50**.
+- Added an **Individual Payments option** to classify invoices individually rather than grouped.
+- Invoice Table Display Settings now include an option to show or hide Invoice Type.
+- These improvements help identify payment restrictions more easily in the Customer Portal.
+
+## 💳 Payment Enhancements
+- A new **Payment Method option in Currency Settings** allows configuring Payment Profiles by assigning Invoice Types.
+- These configurations apply to: Customer Portal Payments, Subscription Invoices, Payment Requests, AutoPay Payments.
+- Payment Reports now include a **User column** showing the individual who initiated each payment.
+
+## ✉ Email & Communication Enhancements
+- **Text Notification Templates** can now be configured for Payment Requests, AutoPay Requests, and Payment Method Requests.
+- Users can insert a **URL in the email template editor**, automatically generating a QR code.
+
+## 🔗 Integration Enhancements
+- Integration with **QuickBooks Online** is now available, allowing syncing of customer, invoice, and payment data.
+
+## 🔌 API Updates
+- **Payments Transactions POST API** now includes an optional parameter to specify an Additional Payment Profile.
+- **Invoice Types GET API** added a new parameter to determine whether invoices with no due date appear on the payment dashboard.
+- **Invoice Type column** appears on the Pay Invoices page.
+- **Payment Method Create GET API** is available to retrieve all Payment Notification Settings.
+- **Payment Notification Templates GET API** is available to retrieve text notification templates.
+- **Payment Notification Templates POST API** is available to configure templates.
+- **AutoPay Request POST API** now supports parameters needed for generating text notifications.
+- **Customer GET API & POST API** add a new Phone field.
+- **Payment Method Request POST API** supports sending requests by phone number.
+- **Payment Method Request & AutoPay Request POST API** added parameters to send requests via phone number.
+
+## 🛠 General Updates
+- Additional **security enhancements** and **system improvements** are included.
+
 ## 10/14/2025
 
-* Vega Migration for User and Permission pages
-* Add new gateway GPAPI 
-* Multilingual Support
-    * Add setting in theme to enable/disable language detection
-    * Add setting in theme to enable/disable single failure message
-    * Add the ability to translate the labels/messages to French on MRHPP and MRHWP 
-* Security Fix
+## 🚀 User Management Enhancements
+### 🔧 New User Management Pages
+New pages are now available for managing Organization Users and configuring User Permission Roles from the new PayFabric UI.
+
+### 🧩 Standard User Permission Roles
+All organizations now have access to an updated set of Standard User Permission Roles to streamline new user setup.
+
+These roles will automatically receive future updates and enhancements.
+
+| Role | Description |
+|------|-------------|
+| All Access | Full access to all features and functionality within the organization. |
+| Administrator | Administrative access for adjusting settings and configurations. |
+| Processor | Ability to perform operational tasks such as processing transactions. |
+| Reader | Access to general PayFabric pages with read-only permissions. |
+
+### 🗂 Custom User Permission Roles
+Previously created custom roles remain supported and will continue to appear as Custom User Permission Roles in the new UI.
+
+## 📱 Hosted Page Updates
+### 🌐 French Language Support
+The following Hosted Pages now support translation into French:
+
+- Mobile Ready Hosted Payment Page
+- Mobile Ready Hosted Wallet Page
+
+#### New features:
+- URL Parameter for Forced Language Setting
+- Automatic Language Detection based on browser configuration
+
+### ⚠ New Single Error Message Option
+A new configuration option is available within Device Theme settings:
+- Hide detailed transaction error messages
+- Display a simplified general error
+- Supported on the Mobile Ready Hosted Payment Page
+
+## 🛠 General Updates
+- Minor improvements to stability, performance, and user experience.
 
 ## 4/2/2025
 
-### User Experience Enhancements
+## 🎨 User Experience Enhancements
+- The **PayFabric Receivables design style** has been enhanced to provide an improved user experience.
+- All PayFabric Receivables pages have been updated to use this new design style.
 
-* The PayFabric Receivables design style has been enhanced to provide an improved user experience. All PayFabric Receivables pages have been updated to utilize this new design style.
-* Many report pages have been updated with an improved experience for users to access their data. The filtering and sorting capabilities have been redesigned with a more intuitive experience by accessing a menu from the column headers. The following report pages have been updated:
-  * Customers
-  * Invoices
-  * Subscriptions
-  * Payments
-  * Emails
-  * Incoming Data
-  * Outgoing Data
-* The Customers, Invoices, Subscriptions and Payments report pages now support saving column filters and sorting preferences to a Saved View. Saved Views can be easily accessed from the menu to allow for quick access to data for future use.
-* A new user experience is available in PayFabric that consolidates the different PayFabric menus into a single experience. An option to utilize the New View is available from the top banner.
-* As an option for users that prefer the original PayFabric view, a Classic View option is available to return users to the original PayFabric view. This option is temporarily available while the New View is being updated to enhance the PayFabric user experience.
+### 📊 Report Page Enhancements
+Many report pages have been redesigned with:
+- Improved data accessibility
+- Updated filtering and sorting capabilities
+- More intuitive menu-based column header interactions
 
-### Integration Enhancements
+Updated report pages include:
+- Customers
+- Invoices
+- Subscriptions
+- Payments
+- Emails
+- Incoming Data
+- Outgoing Data
 
-* Integration between PayFabric and BigCommerce is now available. BigCommerce users can configure PayFabric to route their BigCommerce transactions through PayFabric for payment processing.
+### 💾 Saved Views
+The Customers, Invoices, Subscriptions, and Payments report pages now support:
+- Saving column filters
+- Saving sorting preferences to a **Saved View**
+- Quick access via the menu for future use
 
-### Customer Portal Enhancements
+### 🧭 Updated Navigation Experience
+- A new unified experience consolidates different PayFabric menus into a single interface.
+- The **New View** is available from the top banner.
+- A **Classic View** option is available for users who prefer the original PayFabric layout.
+- The Classic View will remain available while the New View rollout continues.
 
-* The PayFabric Customer Portal design style has been enhanced to provide an improved user experience. All PayFabric Customer Portal pages have been updated to utilize this new design style.
-* The Pay Invoices and History pages have been updated with an improved experience for users to access their data. The filtering and sorting capabilities have been redesigned with a more intuitive experience by accessing a menu from the column headers.
-* The base URL of the PayFabric Customer Portal can now be updated by an organization user. Users changing this URL should take caution as all existing connections to the previous URL will no longer be accessible.
+---
+
+## 🔗 Integration Enhancements
+- **Integration between PayFabric and BigCommerce** is now available.
+- BigCommerce users can configure PayFabric to route BigCommerce transactions through PayFabric for payment processing.
+
+---
+
+## 🖥 Customer Portal Enhancements
+- The **PayFabric Customer Portal design style** has been enhanced to improve user experience.
+- All PayFabric Customer Portal pages now use the new design.
+
+### 📄 Invoice & History Page Improvements
+- The Invoice and History pages have been updated with improved filtering and sorting capabilities.
+- Users can access their data more efficiently through updated menu options.
+
+### 🌐 Customer Portal URL Update
+- The **base URL of the PayFabric Customer Portal** can now be updated by the organization’s administrator.
+- Changing this URL should be done with caution, as existing connections to the previous URL will no longer be accessible.
 
 ## 1/29/2025
 
-### Integration Enhancements
-
-* The SAP Digital Payments integration now supports surcharging capabilities.
+### 🔗 Integration Enhancements
+- The **SAP Digital Payments integration** now supports **surcharging capabilities**.
 
 ## 11/21/2024
 
-### Integration Enhancements
+### 🔗 Integration Enhancements
+- **Automated data synchronization** between **PayFabric** and **Sage Intacct** is now available.
+- Sage Intacct users can now configure PayFabric to automatically synchronize:
+  - Customers
+  - Invoices
+  - Payments
+  from Sage Intacct into PayFabric.
 
-* Automated data synchronization between PayFabric and Sage Intacct is now available. Sage Intacct users can now configure their PayFabric organization to automatically synchronize Customers, Invoices and Payments from Sage Intacct with PayFabric.
 
 ## 10/23/2024
 
