@@ -1,5 +1,28 @@
 # Release Notes
 
+## 5/27/2026
+
+### Organization Enhancements
+
+- In the New View, the Receivables setting page has now been renamed to General settings. 
+- The cards on the General Settings page have been updated to include icons.
+
+### Email Enhancements
+
+- The Email Report page now includes Transaction Receipt Emails
+- In the New View, the Transaction Receipt Emails can now be configured alongside other PayFabric Email Templates in the General Settings. 
+- A new default template is available for the Transaction Receipt Email. 
+
+### Integration Enhancements
+- Integration Connectors for Quickbooks Online and Sage Intacct now support data points being mapped to alternate data fields and transformation of data.
+  
+### Customer Portal Enhancements
+- The PayFabric Customer Portal now supports being translated into French.
+  
+### General Updates
+- Additional security enhancements and system improvements have been made with this release.
+
+
 ## 2/2/2026
 
 ### Organization Enhancements
@@ -7,11 +30,6 @@
 - The New View is now the default view for new users
 - New pages are available for accepting the PayFabric User and Service Agreements.
 - The personal user account page is now available from the menu on the New View. This page now offers the ability for users to reset their password as well.
-
-### Transaction Enhancements
-
-- Additional Card Present Terminal support is supported through the Global Payments Unified Cloud Integration platform integration.
-- A new connector, Global Payments - Transaction API, is available for additional processing options within Global Payments for ACH transactions.
 
 ### Email & Communication Enhancements
 
