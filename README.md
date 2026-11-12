@@ -1,5 +1,25 @@
 # Release Notes
 
+## 11/11/2026
+
+### User Experience Enhancements
+
+- In the New View, the controls from the Dev Central Settings have now been integrated into the General Settings Page. The new Virtual Terminal Settings, Device Settings and Theme Settings pages are now available from the General Settings page. 
+
+### Transaction Enhancements
+
+- A new Form Builder setup page is available now that enables users to create customized payment forms tailored to product purchases, donations, and other transaction based cases.
+
+### Integration Enhancements
+
+- A new integration option is available with Mastercard Commercial Direct Payments (CDP). This integration enables fully automated straight-through processing for users initiating payments from systems integrated with Mastercard CDP.
+- A new integration is available for PayFabric to integrate with SAP S/4HANA invoice data, enabling users to connect their SAP accounts receivable processes with PayFabric for integrated invoice presentment and payment processing.
+- The Order data type is now available for the BigCommerce integration enabling Order documents to be retrieved and managed through PayFabric. 
+  
+### General Updates
+- Additional security enhancements and system improvements have been made with this release.
+
+
 ## 5/27/2026
 
 ### Organization Enhancements
